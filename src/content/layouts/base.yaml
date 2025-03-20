@@ -14,12 +14,14 @@ header:
       href: /
     - text: Coaching
       href: /coaching/
-    - text: Retraite
-      href: /retraite/
     - text: Meditatie
-      href: /meditatie/
-    - text: Zingend mediteren
-      href: /zingend-mediteren/
+      links:
+        - text: Retraite
+          href: /retraite/
+        - text: Meditatie
+          href: /meditatie/
+        - text: Zingend mediteren
+          href: /zingend-mediteren/
     - text: Agenda
       href: /agenda/
     - text: Over mij

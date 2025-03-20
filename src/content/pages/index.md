@@ -9,6 +9,9 @@ sections:
     image:
       src: "/images/placeholder.webp"
       alt: "Hero"
+    buttons:
+      - text: Neem contact op
+        href: /contact/
   - type: features
     align: center
     features:
@@ -22,10 +25,10 @@ sections:
     title: "Een overzicht van mijn aanbod"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     pages:
-      - coaching
       - retraite
-      - meditatie
       - zingend-mediteren
+      - meditatie
+      - coaching
   - type: locations
     align: center
     title: "Wat er gepland staat"
@@ -35,14 +38,6 @@ sections:
       - agenda/event-1
       - agenda/event-1
       - agenda/event-1
-  - type: reviews
-    title: "Wat anderen zeggen"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    reviews:
-      - review-1
-      - review-1
-      - review-1
-      - review-1
   - type: media
     variant: 2
     align: center
@@ -58,13 +53,21 @@ sections:
       alt: "Over mij"
   - type: posts
     align: center
-    title: "Het laatste nieuws"
+    title: "De laatste informatie"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     posts:
       - nieuws/blog-1
       - nieuws/blog-1
       - nieuws/blog-1
       - nieuws/blog-1
+  - type: reviews
+    title: "Wat anderen zeggen"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    reviews:
+      - review-1
+      - review-1
+      - review-1
+      - review-1
   - type: cta
     align: center
     title: "In contact komen?"

@@ -1,6 +1,6 @@
 ---
 type: page
-title: Retraite
+title: Meditatie retraite
 image:
   src: "/images/placeholder.webp"
 sections:
