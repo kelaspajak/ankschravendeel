@@ -1,0 +1,79 @@
+---
+import { getCollection, getEntry, render } from "astro:content"
+
+import { getHref } from "@/lib/get-href"
+import Block from "@/components/misc/block.astro"
+import Layout from "@/components/misc/layout.astro"
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages")
+  return pages.map((page) => ({
+    params: {
+      page: getHref(page.id) === "/" ? undefined : getHref(page.id),
+    },
+    props: {
+      page,
+      search: pages.map((page) => ({
+        text: page.data.title,
+        href: getHref(page.id),
+      })),
+    },
+  }))
+}
+
+const { page, search } = Astro.props
+const { Content } = await render(page)
+const { body, id } = page
+const { seo, type, layout, ...pageData } = page.data
+const {
+  data: { banner, header, footer, ...layoutData },
+} = layout && (await getEntry(layout))
+
+const hasContent = body && body.trim().length > 0
+const hasSections = "sections" in pageData
+---
+
+<Layout
+  data-sb-object-id={page.filePath}
+  {...layoutData}
+  {...pageData}
+  {...seo}
+>
+  <Block type="banner" {...banner} />
+  <Block type="header" search={search} {...header} />
+  <main>
+    {
+      hasContent && type === "page" && id !== "index" && (
+        <Block level={1} type={"content"} {...pageData} data-sb-field-path=".">
+          <Content />
+        </Block>
+      )
+    }
+    {
+      hasContent && type !== "page" && (
+        <Block level={1} type={type} {...pageData} data-sb-field-path=".">
+          <Content />
+        </Block>
+      )
+    }
+    {
+      hasSections &&
+        pageData.sections?.map((section, i) => (
+          <Block
+            key={i}
+            level={(!hasContent || id === "index") && i === 0 ? 1 : 2}
+            data-sb-field-path={`sections.${i}`}
+            {...section}
+          />
+        ))
+    }
+    {
+      hasContent && type === "page" && id === "index" && (
+        <Block level={1} type={"content"} {...pageData} data-sb-field-path=".">
+          <Content />
+        </Block>
+      )
+    }
+  </main>
+  <Block type="footer" {...footer} />
+</Layout>
