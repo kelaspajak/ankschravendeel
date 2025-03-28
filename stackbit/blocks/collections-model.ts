@@ -1,25 +1,19 @@
-import { type ObjectModel } from "@stackbit/types"
-import config from "fulldev.json"
-import { alignField } from "stackbit/components/align-field"
+import { type DataModel } from "@stackbit/types"
 import { buttonsField } from "stackbit/components/buttons-field"
 import { descriptionField } from "stackbit/components/description-field"
-import { levelField } from "stackbit/components/level-field"
 import { titleField } from "stackbit/components/title-field"
-import { variantField } from "stackbit/components/variant-field"
 
 export const collectionsModel = {
   name: "collections",
-  type: "object",
-  hidden: !config.models.collections,
+  label: "Collecties blok",
+  type: "data",
+  filePath: `src/content/blocks/{slug}.md`,
   fields: [
-    variantField,
-    levelField,
-    alignField,
     titleField,
     descriptionField,
     buttonsField,
     {
-      name: "collections",
+      name: "items",
       type: "list",
       items: {
         type: "reference",
@@ -27,4 +21,4 @@ export const collectionsModel = {
       },
     },
   ],
-} satisfies ObjectModel
+} satisfies DataModel
