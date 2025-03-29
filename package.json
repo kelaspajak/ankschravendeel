@@ -78,6 +78,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@rollup/plugin-yaml": "^4.1.2",
     "@stackbit/types": "^2.1.14",
     "@types/node": "^22.13.9",
     "@types/react": "^19.0.10",

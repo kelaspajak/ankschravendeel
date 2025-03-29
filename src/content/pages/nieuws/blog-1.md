@@ -1,4 +1,5 @@
 ---
+type: post
 title: "Blog 1"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 image:

@@ -1,18 +1,13 @@
 ---
-type: page
+type: content
 title: Meditatie
 image:
   src: "/images/placeholder.webp"
 sections:
-  - type: locations
-    align: center
-    title: "Wat er gepland staat"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    locations:
-      - agenda/event-1
-      - agenda/event-1
-      - agenda/event-1
-      - agenda/event-1
+  - src/content/blocks/locations.md
+seo:
+  title: "Vipassana Meditatie | Leer Mediteren met Ank Schravendeel"
+  description: "Ontdek Vipassana meditatie en leer gewaar zijn van je ervaringen. Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke groei."
 ---
 
 # Meditatie

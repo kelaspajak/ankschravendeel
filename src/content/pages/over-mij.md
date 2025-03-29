@@ -1,6 +1,9 @@
 ---
-type: page
+type: content
 title: Over mij
+seo:
+  title: "Over Ank Schravendeel | Meditatie Begeleider & Coach"
+  description: "Maak kennis met Ank Schravendeel, ervaren Vipassana meditatie begeleider sinds 1988. Ontdek haar achtergrond in meditatie, coaching en spirituele begeleiding."
 ---
 
 # Ank Schravendeel, meditatie begeleider
