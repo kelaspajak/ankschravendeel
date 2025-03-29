@@ -12,7 +12,6 @@ export const locationModel = {
   type: "page",
   urlPath: "/{slug}",
   filePath: `src/content/pages/{slug}.md`,
-  hidden: true,
   fields: [
     slugField,
     titleField,

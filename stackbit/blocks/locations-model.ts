@@ -8,7 +8,6 @@ export const locationsModel = {
   label: "Locaties blok",
   type: "data",
   filePath: `src/content/blocks/{slug}.md`,
-  hidden: true,
   fields: [
     titleField,
     descriptionField,
