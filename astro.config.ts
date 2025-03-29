@@ -1,6 +1,5 @@
 import react from "@astrojs/react"
 import sitemap from "@astrojs/sitemap"
-import yaml from "@rollup/plugin-yaml"
 import tailwindcss from "@tailwindcss/vite"
 import robotsTxt from "astro-robots-txt"
 import { defineConfig, envField } from "astro/config"
@@ -31,6 +30,6 @@ export default defineConfig({
   },
   integrations: [robotsTxt(), sitemap(), react(), integration()],
   vite: {
-    plugins: [tailwindcss(), yaml()],
+    plugins: [tailwindcss()],
   },
 })

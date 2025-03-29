@@ -1,5 +1,5 @@
 ---
-type: location
+type: event
 title: "Agenda item 1"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 ---

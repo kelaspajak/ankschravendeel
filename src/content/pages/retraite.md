@@ -4,7 +4,7 @@ title: Meditatie retraite
 image:
   src: "/images/placeholder.webp"
 sections:
-  - src/content/blocks/locations.md
+  - src/content/blocks/events.md
 seo:
   title: "Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel"
   description: "Ervaar de kracht van stilte tijdens onze meditatie retraites. Leer mediteren in een rustige omgeving met professionele begeleiding en verdiep je spirituele reis."

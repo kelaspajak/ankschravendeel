@@ -4,7 +4,7 @@ title: Meditatie
 image:
   src: "/images/placeholder.webp"
 sections:
-  - src/content/blocks/locations.md
+  - src/content/blocks/events.md
 seo:
   title: "Vipassana Meditatie | Leer Mediteren met Ank Schravendeel"
   description: "Ontdek Vipassana meditatie en leer gewaar zijn van je ervaringen. Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke groei."

@@ -43,6 +43,12 @@
     "locations": {
       "variant": 1
     },
+    "event": {
+      "variant": 1
+    },
+    "events": {
+      "variant": 1
+    },
     "media": {
       "variant": 1
     },

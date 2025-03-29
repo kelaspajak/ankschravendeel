@@ -5,7 +5,7 @@ sections:
   - src/content/blocks/hero.md
   - src/content/blocks/features.md
   - src/content/blocks/pages.md
-  - src/content/blocks/locations.md
+  - src/content/blocks/events.md
   - src/content/blocks/media.md
   - src/content/blocks/posts.md
   - src/content/blocks/reviews.md
