@@ -5,4 +5,5 @@ title: De geest laten opbloeien
 image:
   src: /images/foto blog opbloeien geest.jpeg
   alt: omschrijving
+seo: {}
 ---
