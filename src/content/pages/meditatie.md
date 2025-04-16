@@ -18,13 +18,7 @@ De kern van Vipassana meditatie is opmerkzaam te zijn. Weten wat je ervaart. Gew
 
 Mediteren is ervaringsleren, je leert door het te doen. Je hoeft je niet te forceren, je hoeft niet aan bepaalde eisen te voldoen. Je oefent vanuit een innerlijke houding van nieuwsgierig zijn en met belangstelling volgen. Zo leer je te nemen wat er komt en het te laten zoals het gaat. Je begint bij wat je nu ervaart, met de kwaliteit van opmerkzaamheid die er nu is. Je kunt voldoening vinden in het feit dat je opmerkzaam kunt zijn.
 
-
-
-
-
-Andere plek: privacy en aansprakelijkheid 
-
-
+Andere plek: privacy en aansprakelijkheid
 
 Ik onderschrijf de Ethische code van de Stichting Inzicht Meditatie (zie simsara.nl)
 
@@ -36,13 +30,7 @@ Ik geef supervisie aan begeleiders van meditatie activiteiten
 
 
 
-
-
-
-
-
-
-
+Deze tekst hoort bij meditatie
 
 Vipassana meditatie heeft haar wortels in het Boeddhisme, zoals dat wordt beoefend in Birma, Thailand en Sri Lanka( Theravada). Hoe kan het verhaal van de Boeddha, van 2500 jaar geleden, je nu inspireren? Zijn queeste was: hoe kan ik blijvend gelukkig zijn? Hij herkende hoe je geest de gewoonte heeft om bevangen te raken door wat je ervaart. Een mens is steeds bezig om te vermijden wat je niet wilt en te verkrijgen wat je wel wilt. Dat geeft stress. Gewaar zijn van wat je ervaart geeft een andere invalshoek. Gewaar zijn geeft ruimte om dat wat je beleeft te herkennen, toe te laten en te onderzoeken. Dat is de kern van de leer van de Boeddha. Door te mediteren leer je je geest kennen, je traint je geest en je bevrijdt je geest.
 
