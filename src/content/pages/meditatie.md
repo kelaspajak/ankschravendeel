@@ -12,9 +12,9 @@ seo:
     Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke
     groei.
 ---
-# Meditatie
+# Meditate
 
-De kern van Vipassana meditatie is opmerkzaam te zijn. Weten wat je ervaart. Gewaar zijn van wat je in je lichaam ervaart, wat je denkt en wat je voelt. Die simpele menselijke ervaringen leren gebruiken om ze te herkennen. En dat steeds opnieuw toepassen.
+De kerI,, n van Vipassana meditatie is opmerkzaam te zijn. Weten wat je ervaart. Gewaar zijn van wat je in je lichaam ervaart, wat je denkt en wat je voelt. Die simpele menselijke ervaringen leren gebruiken om ze te herkennen. En dat steeds opnieuw toepassen.
 
 Mediteren is ervaringsleren, je leert door het te doen. Je hoeft je niet te forceren, je hoeft niet aan bepaalde eisen te voldoen. Je oefent vanuit een innerlijke houding van nieuwsgierig zijn en met belangstelling volgen. Zo leer je te nemen wat er komt en het te laten zoals het gaat. Je begint bij wat je nu ervaart, met de kwaliteit van opmerkzaamheid die er nu is. Je kunt voldoening vinden in het feit dat je opmerkzaam kunt zijn.
 
@@ -25,10 +25,6 @@ Ik onderschrijf de Ethische code van de Stichting Inzicht Meditatie (zie simsara
 Ik maak deel uit van een collectief van retraite begeleiders, die met elkaar intervisie verzorgen. Zie vipassana.nu
 
 Ik geef supervisie aan begeleiders van meditatie activiteiten
-
-
-
-
 
 Deze tekst hoort bij meditatie
 
