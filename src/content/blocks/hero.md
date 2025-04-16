@@ -1,6 +1,8 @@
 ---
 type: hero
-title: Meditatie en coaching. Zijn met wat er is en dat toelaten.
+title: >-
+  Meditatie en coaching. Zijn met wat er is en dat toelaten. Je ervaring geeft
+  inzicht en je leert je er toe te verhouden.
 description: >-
   Ik mediteer sinds 1988, vipassana meditatie. Zijn met wat er is, toelaten,
   ontdekken. Dat is de basis om als meditatie begeleider en als coach te werken.
