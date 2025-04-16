@@ -8,4 +8,5 @@ seo:
   description: >-
     Neem contact op met Ank Schravendeel voor vragen over meditatie, coaching of
     retraites. Persoonlijke begeleiding voor uw spirituele ontwikkeling.
+description: 'Toevoegen signal, linked in. Adres laten staan?'
 ---
