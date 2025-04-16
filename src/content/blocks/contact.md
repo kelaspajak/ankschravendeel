@@ -21,4 +21,6 @@ channels:
   address: 'Star Numanstraat 65, Groningen'
   phone: 06 52624506
   email: welkom@ankschravendeel.nl
+buttons:
+  - {}
 ---
