@@ -4,6 +4,6 @@ title: 'Perspectief '
 items:
   - title: 'Perspectief '
   - title: ''
-  - title: Zicht krijgen op het menselijke
+  - title: ''
   - title: Een beweging naar buiten maken
 ---
