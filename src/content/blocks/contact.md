@@ -1,6 +1,6 @@
 ---
 type: contact
-title: Neem contact op
+title: Neem gerust contact met mij op
 description: >-
   Neem gerust contact met mij op, stel je vraag via onderstaand
   contactformulier, of geef me een seintje of telefoontje
