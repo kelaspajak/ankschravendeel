@@ -2,19 +2,23 @@
 type: content
 title: Meditatie retraite
 image:
-  src: "/images/placeholder.webp"
+  src: /images/placeholder.webp
 sections:
   - src/content/blocks/events.md
 seo:
-  title: "Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel"
-  description: "Ervaar de kracht van stilte tijdens onze meditatie retraites. Leer mediteren in een rustige omgeving met professionele begeleiding en verdiep je spirituele reis."
+  title: Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel
+  description: >-
+    Ervaar de kracht van stilte tijdens onze meditatie retraites. Leer mediteren
+    in een rustige omgeving met professionele begeleiding en verdiep je
+    spirituele reis.
 ---
-
 # Op retraite
 
 Mediteren leer je door het te doen. Door het langer achter elkaar te doen, door op retraite te gaan, verdiep je het meditatieproces. Tijdens een hele dag, een weekend of een week samen mediteren worden ook je dagelijkse bezigheden deel van je meditatie. De retraites zijn in stilte. Door niet met elkaar te praten heb je de mogelijkheid om je gewoontes van vooruit denken, beoordelen, iets willen bereiken of veranderen te leren zien. Het is een grote investering en het geeft je de kans om veel over jezelf te leren.
 
-Als je een mindfulness training hebt gevolgd en je meditatieproces wilt verdiepen en samen verder wilt oefenen kun je prima aansluiten.
+Als je een mindfulness training hebt gevolgd en je meditatieproces wilt verdiepen en samen verder wilt oefenen kun je prima aansluiten. De retraites van 5 of 10 dagen voldoen aan de criteria tot lidmaatschap en bijscholingen eisen van de VMBN.
+
+
 
 ## Leefregels
 
