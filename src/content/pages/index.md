@@ -2,8 +2,8 @@
 type: content
 title: Home
 sections:
-  - src/content/blocks/hero.md
   - src/content/blocks/pages.md
+  - src/content/blocks/hero.md
   - src/content/blocks/events.md
   - src/content/blocks/media.md
   - src/content/blocks/posts.md
