@@ -1,6 +1,6 @@
 ---
 type: content
-title: Home
+title: Welkom hier!
 sections:
   - src/content/blocks/hero.md
   - src/content/blocks/pages.md
