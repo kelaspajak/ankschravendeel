@@ -13,19 +13,25 @@ seo:
     bewuste keuzes.
 description: 'Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt '
 ---
-
 # Coaching
 
-Coaching is gericht op verhelderen, verdiepen en versterken. Een probleem in werk of in levensloop geeft de noodzaak – en kans – om te onderzoeken wat je drijft en wat je hindert. Een beweging naar binnen te maken, zicht te krijgen op het eigene, het menselijke. Wat uitsteekt geeft reliëf en geeft de kans om bewust een richting te kiezen, een besluit te nemen en in actie te komen.
+Coaching is gericht op verhelderen, verdiepen en versterken. Een probleem in werk of in levensloop geeft de noodzaak – en kans – om te onderzoeken wat je drijft en wat je hindert. een boeddhistische manier van kijken naar een probleem geeft ruimte en openheid: "Wat hindert, helpt"
 
-- Als coach ben ik dom: ik weet het niet beter dan de coachee.
-- Als coach ben ik lui: ik doe het werk niet voor een coachee.
-- Als coach eet ik uit niemands hand: het belang van de coachee is uitgangspunt, niet het belang van anderen die belang hebben bij de keuzes van de coachee.
+## Wat ik belangrijk vind in mijn werk als coach:
 
-We weten wel wat goed is, maar doen het niet. Wat speelt dan?
-Wie bewijs je daarmee een dienst?
+*   Openhartigheid, in contact zijn
 
-## Hoe?
+*   Ik weet niet beter wat goed is voor jou. Ik geef je de ruimte om te vertellen, zodat je dat zelf kunt ontdekken
+
+*   Wat resoneert er, wat wordt aangeraakt? Wat krijgt bestaansrecht, wat niet? 
+
+### werkervaring
+
+Ik werkte als manager in een verpleeghuis en werd ziek. Een wisseling van perspectief, van leidinggevende naar patiënt. Ik moest leren omgaan met verlies en rouw en een andere werkinvulling vinden. Dat was de aanleiding om een coaching opleiding te volgen. Daarvoor werkte ik als trainer, project coördinator en manager in een verpleeghuis. 
+
+Ik deed nascholing bij het Hellinger Insittuut (systemisch werk), over Voice Dialogue en Interventiekunde. 
+
+## Wat gebeurt er in een coachingstraject?
 
 In een coachtraject zoek je uit wat voor jou een situatie tot een probleem maakt.
 Welke innerlijke overtuiging heb je? Beperkt die je of ondersteunt die je? En als die je beperkt: waar is dat goed voor?
