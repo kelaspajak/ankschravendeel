@@ -15,4 +15,5 @@ seo:
     Welkom bij Ank Schravendeel. Ontdek professionele begeleiding in Vipassana
     meditatie, coaching en spirituele ontwikkeling. Start uw reis naar
     innerlijke rust en persoonlijke groei.
+description: lees verder over meditatie en coaching door Ank Schravendeel
 ---
