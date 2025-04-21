@@ -2,12 +2,16 @@
 type: content
 title: Coaching
 image:
-  src: "/images/placeholder.webp"
+  src: /images/placeholder.webp
 sections:
   - src/content/blocks/reviews.md
 seo:
-  title: "Coaching | Persoonlijke & Professionele Coaching door Ank Schravendeel"
-  description: "Professionele coaching voor persoonlijke groei en ontwikkeling. Ontdek hoe coaching je kan helpen bij het verhelderen van je doelen en het maken van bewuste keuzes."
+  title: Coaching | Persoonlijke & Professionele Coaching door Ank Schravendeel
+  description: >-
+    Professionele coaching voor persoonlijke groei en ontwikkeling. Ontdek hoe
+    coaching je kan helpen bij het verhelderen van je doelen en het maken van
+    bewuste keuzes.
+description: 'Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt '
 ---
 
 # Coaching
