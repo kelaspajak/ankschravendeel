@@ -11,6 +11,7 @@ seo:
     Ontdek Vipassana meditatie en leer gewaar zijn van je ervaringen.
     Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke
     groei.
+description: '"Wat je ervoor nodig hebt, krijg je door het te doen"'
 ---
 # Meditate
 
