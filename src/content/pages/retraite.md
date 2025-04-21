@@ -14,18 +14,17 @@ seo:
     in een rustige omgeving met professionele begeleiding en verdiep je
     spirituele reis.
 description: >-
-  Wat ik belangrijk vind aIs meditatie begeleider:                           -
-  walk your talk, talk your walk" het belichamen wat je wilt overbrengen.      -
-  betrouwbaar zijn, je kunt iets leren als het veilig is.                     -
-  vrijgevigheid, de vreugde van het delen van mijn ervaring en energie.     -
-  deelnemers leren van perspectief te
-  wisselen.                                                                 
+  Wat ik belangrijk vind in het begeleiden van
+  meditatie:                           - walk your talk, talk your walk" het
+  belichamen wat je wilt overbrengen.      - betrouwbaar zijn, je kunt iets
+  leren als het veilig is.                     - vrijgevigheid, de vreugde van
+  het delen van mijn ervaring en energie.     - deelnemers leren van perspectief
+  te wisselen.                                                                 
   Voor wie?                                                                Voor
-  mediterenden die hun ervaring willen
-  verdiepen.                                  Voor deelnemers die denken dat ze
-  niet op retraite kunnen in verband met fysieke beperkingen.                   
-  Voor deelnemers die wel zijn begonnen, maar nog niet een stap verder gaan op
-  hun spirituele pad
+  deelnemers die hun ervaring willen verdiepen.                                 
+  Voor deelnemers die denken dat ze niet op retraite kunnen in verband met
+  fysieke beperkingen.                    Voor deelnemers die wel zijn begonnen,
+  maar nog niet een stap verder gaan op hun spirituele pad
 ---
 # Op retraite
 
