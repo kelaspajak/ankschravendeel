@@ -1,6 +1,8 @@
 ---
 type: content
-title: Meditatie retraite
+title: >-
+  Meditatie retraite "opmerkzaam zijn voor langere tijd, intensiever en in alles
+  wat we doen"
 image:
   src: /images/placeholder.webp
 sections:
