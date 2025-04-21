@@ -14,7 +14,7 @@ seo:
     in een rustige omgeving met professionele begeleiding en verdiep je
     spirituele reis.
 description: >-
-  Wat ik belangrijk vind Is meditatie begeleider:                           -
+  Wat ik belangrijk vind aIs meditatie begeleider:                           -
   walk your talk, talk your walk" het belichamen wat je wilt overbrengen.      -
   betrouwbaar zijn, je kunt iets leren als het veilig is.                     -
   vrijgevigheid, de vreugde van het delen van mijn ervaring en energie.     -
