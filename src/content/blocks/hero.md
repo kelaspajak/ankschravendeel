@@ -1,9 +1,7 @@
 ---
 type: hero
 title: >-
-  Meditatie en coaching. Zijn met wat er is en dat toelaten. Je ervaring geeft
-  inzicht en je leert je er toe te verhouden.Ank Schravendeel.     Meditatie:
-  zijn met wat er is en dat
+  Meditatie: zijn met wat er is en dat
   toelaten.                                                Coaching: je ervaring
   geeft inzicht en je leert je er toe verhouden
 description: >-
