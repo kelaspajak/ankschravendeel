@@ -8,6 +8,8 @@ seo:
     sinds 1988. Ontdek haar achtergrond in meditatie, coaching en spirituele
     begeleiding.
 description: 'Wat ik belangrijk vind in het begeleiden van meditatie:'
+sections:
+  - 'src/content/blocks/Wat-ik-belangrijk-vind-in-mijn-werk-als-coach:-.md'
 ---
 
 # Ank Schravendeel, meditatie begeleider
