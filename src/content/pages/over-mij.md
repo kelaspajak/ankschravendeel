@@ -12,7 +12,12 @@ description: >-
   meditatie:                                                     - walk your
   talk, talk your walk: het belichamen van opmerkzaam zijn; - zorg dragen voor
   veiligheid, zodat je kunt leren;      - vrijgevigheid, mijn tijd en energie
-  beschikbaar stellen
+  beschikbaar stellen             Mijn hele leven heb ik gezongen. Op mijn 55e
+  ontdekte ik hoe zingen en mediteren elkaar kunnen versterken. Mediteren maakt
+  ingetogen, zingen maakt opgetogen. Zingen resoneert in het lichaam, het opent
+  het hart, het harmoniseert de geest.  Het geeft vreugde en verbondenheid.
+  Improviserend zingen geeft mij het vertrouwen, dat ik kan zijn met wat er in
+  de klank ontstaat. Hier en nu.
 sections:
   - 'src/content/blocks/Wat-ik-belangrijk-vind-in-mijn-werk-als-coach:-.md'
 ---
