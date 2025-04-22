@@ -7,7 +7,12 @@ seo:
     Maak kennis met Ank Schravendeel, ervaren Vipassana meditatie begeleider
     sinds 1988. Ontdek haar achtergrond in meditatie, coaching en spirituele
     begeleiding.
-description: 'Wat ik belangrijk vind in het begeleiden van meditatie:'
+description: >-
+  Wat ik belangrijk vind in het begeleiden van
+  meditatie:                                                     - walk your
+  talk, talk your walk: het belichamen van opmerkzaam zijn; - zorg dragen voor
+  veiligheid, zodat je kunt leren;      - vrijgevigheid, mijn tijd en energie
+  beschikbaar stellen
 sections:
   - 'src/content/blocks/Wat-ik-belangrijk-vind-in-mijn-werk-als-coach:-.md'
 ---
