@@ -1,6 +1,6 @@
 ---
 type: content
-title: Over mij
+title: 'Over mij, Meditatie begeleider en coach'
 seo:
   title: Over Ank Schravendeel | Meditatie Begeleider & Coach
   description: >-
