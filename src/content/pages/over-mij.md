@@ -7,7 +7,7 @@ seo:
     Maak kennis met Ank Schravendeel, ervaren Vipassana meditatie begeleider
     sinds 1988. Ontdek haar achtergrond in meditatie, coaching en spirituele
     begeleiding.
-description: 'wat ik belangrijk vind in het begeleiden van meditatie:'
+description: 'Wat ik belangrijk vind in het begeleiden van meditatie:'
 ---
 
 # Ank Schravendeel, meditatie begeleider
