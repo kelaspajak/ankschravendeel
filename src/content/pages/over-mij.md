@@ -38,7 +38,9 @@ description: >-
   ondersteun ik als kerndocent. Het is een cursus van twee jaar, die overzicht
   geeft over de kernbegrippen uit de vroeg boeddhistische teksten. Zelf blijven
   studeren geeft een verdieping van mijn meditatie.         titel: begeleiding
-  van "self-retreat"
+  van "self-retreat"           Je eigen retraite organiseren, alleen of met een
+  aantal anderen, thuis of op een andere locatie, waarin je je eigen programma
+  volgt. In die situatie bied ik uitwisselingsgesprekken aan per zoom.
 sections:
   - 'src/content/blocks/Wat-ik-belangrijk-vind-in-mijn-werk-als-coach:-.md'
 ---
