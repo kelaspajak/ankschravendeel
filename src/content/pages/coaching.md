@@ -23,13 +23,13 @@ Coaching is gericht op verhelderen, verdiepen en versterken. Een probleem in wer
 
 *   Ik weet niet beter wat goed is voor jou. Ik geef je de ruimte om te vertellen, zodat je dat zelf kunt ontdekken
 
-*   Wat resoneert er, wat wordt aangeraakt? Wat krijgt bestaansrecht, wat niet? 
+*   Wat resoneert er, wat wordt aangeraakt? Wat krijgt bestaansrecht, wat niet?
 
 ### werkervaring
 
-Ik werkte als manager in een verpleeghuis en werd ziek. Een wisseling van perspectief, van leidinggevende naar patiënt. Ik moest leren omgaan met verlies en rouw en een andere werkinvulling vinden. Dat was de aanleiding om een coaching opleiding te volgen. Daarvoor werkte ik als trainer, project coördinator en manager in een verpleeghuis. 
+Ik werkte als manager in een verpleeghuis en werd ziek. Een wisseling van perspectief, van leidinggevende naar patiënt. Ik moest leren omgaan met verlies en rouw en een andere werkinvulling vinden. Dat was de aanleiding om een coaching opleiding te volgen. Daarvoor werkte ik als trainer, project coördinator en manager in een verpleeghuis.
 
-Ik deed nascholing bij het Hellinger Insittuut (systemisch werk), over Voice Dialogue en Interventiekunde. 
+Ik deed nascholing bij het Hellinger Insittuut (systemisch werk), over Voice Dialogue en Interventiekunde.
 
 ## Wat gebeurt er in een coachingstraject?
 
@@ -49,3 +49,47 @@ Een coachingstraject bestaat uit 5 tot 10 sessies, afhankelijk van je vraag.
 Een kennismakingsgesprek is kosteloos. Een individuele sessie (anderhalf uur) kost € 80,-.
 
 Ank Schravendeel Coaching Praktijk is ingeschreven bij de Kamer van Koophandel te Leeuwarden onder nummer 04081245.
+
+
+
+## Wat zeggen mensen die een coach traject volgden:
+
+
+
+
+
+Coach: 
+
+"Wat ik bij Ank heel erg apprecieer zijn haar zacht
+luisterend oor en scherpe kijk. Zij doorziet haarfijn waar de “knobbel” zit,
+stelt precies de vragen die ertoe doen en nodigt je zo op een heel vriendelijke
+en aanmoedigende manier uit om de dingen vanuit een andere hoek te bekijken,
+die verruimend en inzichtelijk werkt. Ik voel veel dankbaarheid voor alle
+gesprekken die we hadden."
+
+beleidsmedewerker zorg:
+
+*"Ik heb Ank ervaren als een betrokken coach. Ank liet mij eigenaar zijn en blijven
+van mijn eigen vraag. Ze hielp me om mijn eigen antwoorden te vinden. Ze maakte
+daarbij gebruik van verschillende technieken die ze op de juiste momenten wist
+in te zetten, zoals opstellingen en voice dialogue. Na een aantal sessies kon
+ik keuzes maken waarmee ik weer verder kon op mijn levenspad."*
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
