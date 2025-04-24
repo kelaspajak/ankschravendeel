@@ -1,6 +1,6 @@
 ---
 type: content
-title: Welkom hier!
+title: Home
 sections:
   - src/content/blocks/hero.md
   - src/content/blocks/pages.md
@@ -10,7 +10,7 @@ sections:
   - src/content/blocks/reviews.md
   - src/content/blocks/cta.md
 seo:
-  title: 'Ank Schravendeel | Meditatie, Coaching & Spirituele Begeleiding'
+  title: "Ank Schravendeel | Meditatie, Coaching & Spirituele Begeleiding"
   description: >-
     Welkom bij Ank Schravendeel. Ontdek professionele begeleiding in Vipassana
     meditatie, coaching en spirituele ontwikkeling. Start uw reis naar

@@ -25,6 +25,9 @@ function Hero1({
     <Section id={id} className={cn(className)} {...props}>
       <Container>
         <Column align={align}>
+          <div className="text-primary mb-4 items-center justify-center text-base font-medium">
+            Welkom hier!
+          </div>
           <Title size="6xl" level={level} align={align} text={title} />
           <Description
             className="not-first:mt-4"

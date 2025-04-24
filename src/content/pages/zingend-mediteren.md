@@ -1,6 +1,8 @@
 ---
 type: content
 title: Zingend mediteren
+description: >-
+  Mediteren maakt ingetogen, zingen maakt opgetogen.
 image:
   src: /images/placeholder.webp
 sections:

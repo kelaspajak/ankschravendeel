@@ -1,7 +1,7 @@
 ---
 type: events
-title: "Wat er gepland staat"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: 'Wat er gepland staat '
+description: ''
 items:
   - src/content/pages/agenda/rituelen-verkennen.md
 ---

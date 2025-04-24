@@ -1,32 +1,42 @@
 ---
 type: content
 title: >-
-  Meditatie retraite "opmerkzaam zijn voor langere tijd, intensiever en in alles
-  wat we doen"
+  Meditatie retraite
+description: >-
+  Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen
 image:
   src: /images/placeholder.webp
 sections:
   - src/content/blocks/events.md
+  - src/content/blocks/reviews-retraites.md
 seo:
   title: Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel
   description: >-
     Ervaar de kracht van stilte tijdens onze meditatie retraites. Leer mediteren
     in een rustige omgeving met professionele begeleiding en verdiep je
     spirituele reis.
-description: >-
-  Wat ik belangrijk vind in het begeleiden van
-  meditatie:                           - walk your talk, talk your walk" het
-  belichamen wat je wilt overbrengen.      - betrouwbaar zijn, je kunt iets
-  leren als het veilig is.                     - vrijgevigheid, de vreugde van
-  het delen van mijn ervaring en energie.     - deelnemers leren van perspectief
-  te wisselen.                                                                 
-  Voor wie?                                                                Voor
-  deelnemers die hun ervaring willen verdiepen.                                 
-  Voor deelnemers die denken dat ze niet op retraite kunnen in verband met
-  fysieke beperkingen.                    Voor deelnemers die wel zijn begonnen,
-  maar nog niet een stap verder gaan op hun spirituele pad
 ---
+
 # Op retraite
+
+Wat ik belangrijk vind in het begeleiden van meditatie: - walk your talk, talk your walk" het
+
+- belichamen wat je wilt overbrengen.
+- betrouwbaar zijn, je kunt iets leren als het veilig is. - vrijgevigheid, de vreugde van
+- het delen van mijn ervaring en energie.
+- deelnemers leren van perspectief te wisselen.
+
+Voor wie? Voor
+
+- deelnemers die hun ervaring willen verdiepen.
+- deelnemers die denken dat ze niet op retraite kunnen in verband met fysieke beperkingen.
+- Voor deelnemers die wel zijn begonnen, maar nog niet een stap verder gaan op hun spirituele pad
+
+## Begeleiding van "self-retreat"
+
+Je eigen retraite organiseren, alleen of met een aantal anderen, thuis of op een andere locatie, waarin je je eigen programma volgt. In die situatie bied ik uitwisselingsgesprekken aan per zoom.
+
+# OUDE TEKST (mag blijven):
 
 Mediteren leer je door het te doen. Door het langer achter elkaar te doen, door op retraite te gaan, verdiep je het meditatieproces. Tijdens een hele dag, een weekend of een week samen mediteren worden ook je dagelijkse bezigheden deel van je meditatie. De retraites zijn in stilte. Door niet met elkaar te praten heb je de mogelijkheid om je gewoontes van vooruit denken, beoordelen, iets willen bereiken of veranderen te leren zien. Het is een grote investering en het geeft je de kans om veel over jezelf te leren.
 

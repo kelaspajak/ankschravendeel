@@ -1,7 +1,7 @@
 ---
 type: pages
-title: "Een overzicht van mijn aanbod"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: 'Een overzicht van mijn aanbod '
+description: ''
 items:
   - src/content/pages/coaching.md
   - src/content/pages/meditatie.md
