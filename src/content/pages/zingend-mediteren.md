@@ -3,8 +3,6 @@ type: content
 title: Zingend mediteren
 image:
   src: "/images/placeholder.webp"
-sections:
-  - src/content/blocks/events.md
 seo:
   title: "Zingend Mediteren | Meditatie door Zang met Ank Schravendeel"
   description: "Ontdek de kracht van zingend mediteren. Combineer zang en meditatie voor een unieke spirituele ervaring onder begeleiding van Ank Schravendeel en Arman Ameri."

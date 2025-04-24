@@ -20,12 +20,12 @@
         "text": "Meditatie",
         "links": [
           {
-            "text": "Retraite",
-            "href": "/retraite/"
-          },
-          {
             "text": "Meditatie",
             "href": "/meditatie/"
+          },
+          {
+            "text": "Retraite",
+            "href": "/retraite/"
           },
           {
             "text": "Zingend mediteren",
@@ -38,8 +38,12 @@
         "href": "/agenda/"
       },
       {
-        "text": "Nieuws",
-        "href": "/nieuws/"
+        "text": "Lezingen",
+        "href": "/lezingen/"
+      },
+      {
+        "text": "Blog",
+        "href": "/blog/"
       },
       {
         "text": "Over mij",
