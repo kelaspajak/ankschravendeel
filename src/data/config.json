@@ -19,7 +19,8 @@
       "variant": 1
     },
     "cta": {
-      "variant": 1
+      "variant": 1,
+      "align": "center"
     },
     "faqs": {
       "variant": 0
@@ -50,7 +51,8 @@
       "variant": 1
     },
     "media": {
-      "variant": 1
+      "variant": 2,
+      "align": "center"
     },
     "pages": {
       "variant": 1
