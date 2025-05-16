@@ -11,6 +11,9 @@ export default defineConfig({
   prefetch: {
     prefetchAll: true,
   },
+  server: {
+    port: 3000,
+  },
   env: {
     schema: {
       SHOPIFY_ADMIN_KEY: envField.string({

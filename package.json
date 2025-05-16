@@ -12,7 +12,7 @@
     "test": "astro check && astro build && astro preview --host",
     "shadcn": "pnpm dlx shadcn@canary add",
     "registry:build": "shadcn build",
-    "stackbit:dev": "stackbit dev --port 4321",
+    "stackbit:dev": "stackbit dev --port 3000",
     "l": "pnpm link --global fulldev-ui"
   },
   "dependencies": {
