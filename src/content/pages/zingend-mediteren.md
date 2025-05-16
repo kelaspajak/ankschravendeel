@@ -4,7 +4,7 @@ title: Zingend mediteren
 description: >-
   Mediteren maakt ingetogen, zingen maakt opgetogen.
 image:
-  src: /images/placeholder.webp
+  src: /images/zingen-en-mediteren.jpeg
 sections:
   - src/content/blocks/events.md
 seo:
@@ -16,6 +16,8 @@ seo:
 ---
 
 # Zingend mediteren
+
+![Zingend mediteren](/images/zingen-en-mediteren.jpeg)
 
 De stilte van het mediteren maakt ruimte voor het ervaren van klank. De klank resoneert in het lichaam en
 concentreert de geest. Dat geeft vreugde en verbondenheid. Resonantie en stilte.

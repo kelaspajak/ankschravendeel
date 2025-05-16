@@ -2,7 +2,7 @@
 type: content
 title: Coaching
 image:
-  src: /images/placeholder.webp
+  src: /images/coaching.jpeg
 sections:
   - src/content/blocks/reviews.md
 seo:
@@ -11,19 +11,22 @@ seo:
     Professionele coaching voor persoonlijke groei en ontwikkeling. Ontdek hoe
     coaching je kan helpen bij het verhelderen van je doelen en het maken van
     bewuste keuzes.
-description: 'Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt '
+description: "Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt "
 ---
+
 # Coaching
+
+![Coaching](/images/coaching.jpeg)
 
 Coaching is gericht op verhelderen, verdiepen en versterken. Een probleem in werk of in levensloop geeft de noodzaak – en kans – om te onderzoeken wat je drijft en wat je hindert. een boeddhistische manier van kijken naar een probleem geeft ruimte en openheid: "Wat hindert, helpt"
 
 ## Wat ik belangrijk vind in mijn werk als coach:
 
-*   Openhartigheid, in contact zijn
+- Openhartigheid, in contact zijn
 
-*   Ik weet niet beter wat goed is voor jou. Ik geef je de ruimte om te vertellen, zodat je dat zelf kunt ontdekken
+- Ik weet niet beter wat goed is voor jou. Ik geef je de ruimte om te vertellen, zodat je dat zelf kunt ontdekken
 
-*   Wat resoneert er, wat wordt aangeraakt? Wat krijgt bestaansrecht, wat niet?
+- Wat resoneert er, wat wordt aangeraakt? Wat krijgt bestaansrecht, wat niet?
 
 ### werkervaring
 
@@ -50,15 +53,9 @@ Een kennismakingsgesprek is kosteloos. Een individuele sessie (anderhalf uur) ko
 
 Ank Schravendeel Coaching Praktijk is ingeschreven bij de Kamer van Koophandel te Leeuwarden onder nummer 04081245.
 
-
-
 ## Wat zeggen mensen die een coach traject volgden:
 
-
-
-
-
-Coach: 
+Coach:
 
 "Wat ik bij Ank heel erg apprecieer zijn haar zacht
 luisterend oor en scherpe kijk. Zij doorziet haarfijn waar de “knobbel” zit,
@@ -69,27 +66,10 @@ gesprekken die we hadden."
 
 beleidsmedewerker zorg:
 
-*"Ik heb Ank ervaren als een betrokken coach. Ank liet mij eigenaar zijn en blijven
+_"Ik heb Ank ervaren als een betrokken coach. Ank liet mij eigenaar zijn en blijven
 van mijn eigen vraag. Ze hielp me om mijn eigen antwoorden te vinden. Ze maakte
 daarbij gebruik van verschillende technieken die ze op de juiste momenten wist
 in te zetten, zoals opstellingen en voice dialogue. Na een aantal sessies kon
-ik keuzes maken waarmee ik weer verder kon op mijn levenspad."*
-
-
-
-
-
-
-
-
+ik keuzes maken waarmee ik weer verder kon op mijn levenspad."_
 
  
-
-
-
-
-
-
-
-
-

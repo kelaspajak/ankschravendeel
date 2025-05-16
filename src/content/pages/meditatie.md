@@ -2,7 +2,7 @@
 type: content
 title: Meditatie
 image:
-  src: /images/placeholder.webp
+  src: /images/meditatie.jpeg
 sections:
   - src/content/blocks/events.md
 seo:
@@ -15,6 +15,8 @@ description: "Wat je ervoor nodig hebt, krijg je door het te doen"
 ---
 
 # Vipassana meditatie
+
+![Meditatie](/images/meditatie.jpeg)
 
 De kern van Vipassana meditatie is opmerkzaam zijn. Weten wat we ervaren. Gewaar zijn van wat we in ons lichaam voelen, wat we denken en wat we voelen. Die simpele menselijke ervaringen leren gebruiken om ze te herkennen. En dat steeds opnieuw toepassen.
 

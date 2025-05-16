@@ -1,9 +1,9 @@
 ---
 type: content
 title: Meditatie retraite
-description: 'Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen'
+description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
 image:
-  src: /images/placeholder.webp
+  src: /images/retraite.jpeg
 sections:
   - src/content/blocks/events.md
   - src/content/blocks/reviews-retraites.md
@@ -14,34 +14,35 @@ seo:
     in een rustige omgeving met professionele begeleiding en verdiep je
     spirituele reis.
 ---
+
 # Op retraite
+
+![Retraite](/images/retraite.jpeg)
 
 Wat ik belangrijk vind in het begeleiden van meditatie: - walk your talk, talk your walk" het
 
-*   belichamen wat je wilt overbrengen.
-*   betrouwbaar zijn, je kunt iets leren als het veilig is. - vrijgevigheid, de vreugde van
-*   het delen van mijn ervaring en energie.
-*   deelnemers leren van perspectief te wisselen.
+- belichamen wat je wilt overbrengen.
+- betrouwbaar zijn, je kunt iets leren als het veilig is. - vrijgevigheid, de vreugde van
+- het delen van mijn ervaring en energie.
+- deelnemers leren van perspectief te wisselen.
 
 Voor wie? Voor
 
-*   deelnemers die hun ervaring willen verdiepen.
-*   deelnemers die denken dat ze niet op retraite kunnen in verband met fysieke beperkingen.
-*   Voor deelnemers die wel zijn begonnen, maar nog niet een stap verder gaan op hun spirituele pad
+- deelnemers die hun ervaring willen verdiepen.
+- deelnemers die denken dat ze niet op retraite kunnen in verband met fysieke beperkingen.
+- Voor deelnemers die wel zijn begonnen, maar nog niet een stap verder gaan op hun spirituele pad
 
 ## Begeleiding van "self-retreat"
 
 Je eigen retraite organiseren, alleen of met een aantal anderen, thuis of op een andere locatie, waarin je je eigen programma volgt. In die situatie bied ik uitwisselingsgesprekken aan per zoom.
 
-
-
 ## wat anderen zeggen over het volgen van een retraite:
 
-*   "Het is een geleidelijk proces. Steeds komt er weer iets nieuws boven, wat dan langzaam went en zich ontvouwt."
+- "Het is een geleidelijk proces. Steeds komt er weer iets nieuws boven, wat dan langzaam went en zich ontvouwt."
 
-*   "Ik heb nog nooit eerder aan iets meegedaan dat zo simpel was, zo vreselijk confronterend en zo goed."
+- "Ik heb nog nooit eerder aan iets meegedaan dat zo simpel was, zo vreselijk confronterend en zo goed."
 
-*   "Op zoek naar rust en tijd voor mezelf. Wat een rollercoaster was het! En het smaakt naar meer."
+- "Op zoek naar rust en tijd voor mezelf. Wat een rollercoaster was het! En het smaakt naar meer."
 
 # OUDE TEKST (mag blijven):
 

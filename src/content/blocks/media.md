@@ -1,6 +1,6 @@
 ---
 type: media
-title: 'Over mij '
+title: "Over mij "
 description: >-
   Ik mediteer sinds 1988, vipassana meditatie. Zijn met wat er is, toelaten,
   ontdekken. Dat is de basis om als meditatie begeleider en als coach te werken.
@@ -12,6 +12,6 @@ buttons:
   - text: Lees verder
     href: /over-mij/
 image:
-  src: /images/placeholder.webp
+  src: /images/ank.jpeg
   alt: Over mij
 ---

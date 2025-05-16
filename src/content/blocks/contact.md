@@ -4,6 +4,8 @@ title: Neem gerust contact met mij op
 description: >-
   Neem gerust contact met mij op, stel je vraag via onderstaand
   contactformulier, of geef me een seintje of telefoontje
+image:
+  src: /images/contact.jpeg
 form:
   fields:
     - type: text
@@ -18,7 +20,7 @@ form:
       label: Bericht
   submit: Verstuur bericht
 channels:
-  address: 'Star Numanstraat 65, Groningen'
+  address: "Star Numanstraat 65, Groningen"
   phone: 06 52624506
   email: welkom@ankschravendeel.nl
 buttons:

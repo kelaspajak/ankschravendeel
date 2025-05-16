@@ -13,7 +13,7 @@ description: |
 
 # description: "Welkom, lees verder over meditatie en coaching door Ank Schravendeel."
 image:
-  src: /images/placeholder.webp
+  src: /images/home.jpeg
   alt: Hero
 buttons:
   - text: Neem contact op
