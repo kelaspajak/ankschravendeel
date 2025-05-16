@@ -5,4 +5,5 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do ei
 items:
   - src/content/pages/blog/de-geest-laten-opbloeien.md
   - src/content/pages/blog/horen-zingen-en-mediteren-bij-elkaar.md
+  - src/content/pages/blog/de-taal-van-handen-en-voeten.md
 ---
