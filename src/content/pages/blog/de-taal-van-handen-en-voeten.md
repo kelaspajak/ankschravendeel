@@ -2,10 +2,12 @@
 type: post
 title: "De taal van handen en voeten"
 image:
-  src: /images/placeholder.webp
+  src: /images/de-taal-van-handen-en-voeten.jpeg
 ---
 
 # De taal van handen en voeten
+
+![De taal van handen en voeten](/images/de-taal-van-handen-en-voeten.jpeg)
 
 Een wijze sjamaan zei: "Er bestaan drie talen in de hele wereld: de taal van stilte, de taal van handen, de taal van woorden".
 
