@@ -19,34 +19,31 @@ seo:
 
 ![Zingend mediteren](/images/zingen-en-mediteren.jpeg)
 
-De stilte van het mediteren maakt ruimte voor het ervaren van klank. De klank resoneert in het lichaam en
-concentreert de geest. Dat geeft vreugde en verbondenheid. Resonantie en stilte.
+Zingen verbindt hart, hoofd en lichaam. Het bevordert concentratie en is een vreugdevolle ervaring die van toegevoegde waarde is voor mediteren.
 
-Ik werk samen met Arman Ameri Mahani, een Iraans musicus die zich heeft gewijd aan het leren van Dhrupad (Indiase klassieke muziek) Hij zingt raga's en mantra's en speelt op authentieke snaarinstrumenten.
+Mediteren maakt open naar binnen - dat maakt ingetogen. Door meditatie kom je in verbinding met je lichaam, het hart opent voor wat je ervaart, je wordt bewust van je ervaring. Het gaat om ontvankelijk zijn en verstillen.
 
-## wat voor ons belangrijk is in zingen en mediteren:
+Zingen brengt klank naar buiten, dat resoneert en verbindt met elkaar - dat maakt opgetogen.
 
-- Klank gaat voorbij woorden en concepten, net als het ervaren van wat je beleeft in de meditatie
+Ank Schravendeel begeleidt vipassana meditatie en onderzoekt sinds 2017 manieren om zingen en mediteren te combineren. Arman Ameri Mahani is een Iraans musicus, die in India een opleiding klassieke muziek volgde (Dhrupad) en op het conservatorium in Groningen afstudeerde op meditatief zingen. Zij geven sinds het voorjaar 2024 samen dagen Zingen en mediteren.
 
-- Je gebruikt je vaardigheid om te zingen en het overkomt je, ratio en intuïtie komen bij elkaar
+## Wat kun je verwachten bij meditatief zingen?
 
-- Mediteren maakt ingetogen, zingen maakt opgetogen: vreugde geeft concentratie
+Arman gebruikt klankschalen en muziek uit India (Dhrupad). In India is de bakermat van de combinatie van spiritualiteit en muziek. Klank gaat vooraf aan concepten, jouw ideeën en meningen. Het begint in stilte, met één klank. We geven expressie aan wat gehoord wil worden, zonder die concepten en meningen.
 
-- Expressie geven, je laten horen, geeft verbondenheid
+Klank resoneert. Verschillende klinkers resoneren op verschillende plekken in ons lichaam. We kunnen de trilling voelen: meer in de borst bij een "oo", of in de keel bij een "ie". De overgang van de ene toonhoogte naar een andere roept een emotie op en vertelt een verhaal. Die klankafstanden (intervallen) kunnen we ervaren. Het gaat niet om het zingen van een melodie. Het gaat om de zeggingskracht van de tonen onderling. Dat geeft vreugde en maakt opgetogen.
 
-### reacties van deelnemers:
+De klanken kunnen begeleid worden door een beweging, het bewegen van een hand, een arm, de romp. De beweging versterkt de expressie. Het lichaam raakt er ook via expressie bij betrokken, niet alleen via het resoneren, ook in het bewegen. De klank volgt de beweging, de beweging volgt de klank.
 
-"Zingen is van toegevoegde waarde voor meditatie. En bewegen met klank ook"
+We zingen eenvoudige raga's (een improvisatie op een vijf-tonige toonladder) en mantra's (melodie met woorden die over wijsheid gaan). Arman improviseert verder op het klankbeeld van de raga. Dat kan op verschillende snaarinstrumenten. Dan kunnen we ervaren hoe de muziek ons aanraakt en aanspreekt.
 
-"Het zingen ging als vanzelf van binnen naar buiten. Ik voelde me opgenomen in de harmonie van klanken om me heen. Dat tilt me boven mezelf uit"
+Het zingen wordt afgewisseld met stilte en zitmeditatie.
 
-"Lichaam en geest zijn compagnons in het zingen en daarna ook in het mediteren"
+### Meer informatie
 
-_"a spiritual friend hears the song of your hart_
-
-_and sings it back to you_
-
-_when you forget_"
+- Website Arman: [https://www.meditativesoundscape.com](https://www.meditativesoundscape.com)
+- Nieuwsgierig naar het verhaal van de ontdekkingstocht van Ank en Arman? Zij nemen je mee in hun verhaal in deze podcast.
+- Eerder meegedaan en verder willen zingen? Een opname van een aantal mantra's, zoals die ook worden gebruikt tijdens de dagen zingen en mediteren, vind je hier (na juni 2025).
 
 ### (Jan Surrey)
 

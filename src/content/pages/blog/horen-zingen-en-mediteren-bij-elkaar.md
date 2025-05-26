@@ -3,7 +3,7 @@ type: post
 slug: blog/horen-zingen-en-mediteren-bij-elkaar
 title: Horen zingen en mediteren bij elkaar?
 image:
-  src: /images/placeholder.webp
+  src: /images/horen-zingen-en-mediteren-bij-elkaar.jpeg
 ---
 
 ## Horen zingen en mediteren bij elkaar?
