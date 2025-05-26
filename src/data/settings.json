@@ -3,10 +3,6 @@
   "company": "Lorem Ipsum",
   "header": {
     "search": false,
-    "logo": {
-      "src": "/images/placeholder.webp",
-      "alt": "Logo Lorem"
-    },
     "menus": [
       {
         "text": "Home",
