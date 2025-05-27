@@ -1,10 +1,10 @@
 ---
-type: content
-title: Zingend mediteren
-description: >-
-  Mediteren maakt ingetogen, zingen maakt opgetogen.
-image:
-  src: /images/zingen-en-mediteren.jpeg
+# type: content
+# title: Zingend mediteren
+# description: >-
+#   Mediteren maakt ingetogen, zingen maakt opgetogen.
+# image:
+#   src: /images/zingen-en-mediteren.jpeg
 sections:
   - src/content/blocks/events.md
   - src/content/blocks/reviews-zingend-mediteren.md

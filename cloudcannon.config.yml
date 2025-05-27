@@ -1,0 +1,17 @@
+paths:
+  static: public
+  uploads: public/images
+
+collection_groups:
+  - heading: Content
+    collections:
+      - pages
+
+collections_config:
+  pages:
+    path: src/content/pages
+    url: /[full_slug]/
+    icon: wysiwyg
+    _enabled_editors:
+      - visual
+      - content

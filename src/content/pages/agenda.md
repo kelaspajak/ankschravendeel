@@ -1,8 +1,8 @@
 ---
-type: content
-title: Agenda
-image:
-  src: /images/organiseren-plannen-overzicht.jpeg
+# type: content
+# title: Agenda
+# image:
+#   src: /images/organiseren-plannen-overzicht.jpeg
 sections:
   - src/content/blocks/events.md
 seo:

@@ -1,51 +1,27 @@
-import * as React from "react"
-import type { BlockSchema } from "@/schemas/block"
+import { Button } from "@/components/ui/button"
 
-import { cn } from "@/lib/utils"
-import { Buttons } from "@/components/buttons"
-import { Column } from "@/components/column"
-import { Container } from "@/components/container"
-import { Description } from "@/components/description"
-import { Image } from "@/components/image"
-import { Section } from "@/components/section"
-import { Title } from "@/components/title"
-
-function Hero1({
-  id,
-  level = 1,
-  align,
-  title,
-  description,
-  buttons,
-  image,
-  className,
-  ...props
-}: BlockSchema) {
+export default function () {
   return (
-    <Section id={id} className={cn(className)} {...props}>
-      <Container>
-        <Column align={align}>
-          <div className="text-primary mb-4 items-center justify-center text-base font-medium">
-            Welkom hier!
-          </div>
-          <Title size="6xl" level={level} align={align} text={title} />
-          <Description
-            className="not-first:mt-4"
-            size="xl"
-            align={align}
-            text={description}
-          />
-          <Buttons
-            className="not-first:mt-8"
-            size="xl"
-            align={align}
-            buttons={buttons}
-          />
-          <Image className="rounded-lg not-first:mt-16" {...image} />
-        </Column>
-      </Container>
-    </Section>
+    <section className="relative w-full py-16">
+      <div className="mx-auto flex w-full max-w-screen-xl flex-col items-center px-4 lg:px-8">
+        <span className="text-primary mb-4 items-center justify-center text-base font-medium">
+          Welkom hier!
+        </span>
+        <h1 className="text-center text-6xl font-bold">
+          Krijg inzicht door meditatie en coaching met Ank Schravendeel
+        </h1>
+        <p className="mt-4 text-center text-xl">
+          Meditatie: zijn met wat er is en dat toelaten. <br />
+          Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.
+        </p>
+        <Button asChild size="lg">
+          <a href="/contact/">Neem contact op</a>
+        </Button>
+        <Button asChild size="lg" variant="ghost">
+          <a href="/meditatie/">Lees verder</a>
+        </Button>
+        <img className="mt-16 rounded-lg" src="/images/home.jpeg" alt="Hero" />
+      </div>
+    </section>
   )
 }
-
-export { Hero1 }

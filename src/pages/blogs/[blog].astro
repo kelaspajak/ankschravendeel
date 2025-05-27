@@ -1,0 +1,20 @@
+---
+import BlogLayout from "@/layouts/blog.tsx"
+import { getCollection } from "astro:content"
+
+export async function getStaticPaths() {
+  const entries = await getCollection("blogs")
+  return entries.map((entry) => {
+    return {
+      params: {
+        blog: entry.id,
+      },
+      props: entry,
+    }
+  })
+}
+
+const { data } = Astro.props
+---
+
+<BlogLayout {...data} />

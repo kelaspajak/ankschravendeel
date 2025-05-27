@@ -1,9 +1,9 @@
 ---
-type: content
-title: Meditatie retraite
-description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
-image:
-  src: /images/retraite.jpeg
+# type: content
+# title: Meditatie retraite
+# description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
+# image:
+#   src: /images/retraite.jpeg
 sections:
   - src/content/blocks/events.md
   - src/content/blocks/reviews-retraites.md

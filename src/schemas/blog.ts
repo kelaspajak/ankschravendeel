@@ -1,8 +1,8 @@
 import { z } from "zod"
 
-export const pageSchema = z
+export const blogSchema = z
   .object({
-    sections: z.string().array().optional(),
+    title: z.string(),
     seo: z
       .object({
         title: z.string().optional(),
@@ -12,4 +12,4 @@ export const pageSchema = z
   })
   .strict()
 
-export type PageSchema = z.infer<typeof pageSchema>
+export type BlogSchema = z.infer<typeof blogSchema>

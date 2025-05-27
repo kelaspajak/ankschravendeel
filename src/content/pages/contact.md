@@ -1,6 +1,6 @@
 ---
-type: content
-title: Neem gerust contact met mij op
+# type: content
+# title: Neem gerust contact met mij op
 sections:
   - src/content/blocks/contact.md
 seo:
@@ -8,7 +8,8 @@ seo:
   description: >-
     Neem contact op met Ank Schravendeel voor vragen over meditatie, coaching of
     retraites. Persoonlijke begeleiding voor uw spirituele ontwikkeling.
-description: "Toevoegen signal, linked in. Adres laten staan?"
+
+# description: "Toevoegen signal, linked in. Adres laten staan?"
 ---
 
 ![Contact](/images/contact.jpeg)

@@ -1,13 +1,14 @@
 ---
-import Page from "@/layouts/page"
+import ArticleLayout from "@/layouts/article.tsx"
 import { getCollection, render } from "astro:content"
 
 export async function getStaticPaths() {
-  const entries = await getCollection("pages")
+  const entries = await getCollection("articles")
   return entries.map((entry) => {
     return {
       params: {
-        page: entry.id === "index" ? undefined : entry.id,
+        blog: entry.data.blog.id,
+        article: entry.id,
       },
       props: entry,
     }
@@ -18,6 +19,6 @@ const { data } = Astro.props
 const { Content } = await render(Astro.props)
 ---
 
-<Page {...data}>
+<ArticleLayout {...data}>
   <Content />
-</Page>
+</ArticleLayout>

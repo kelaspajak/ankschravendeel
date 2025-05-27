@@ -16,7 +16,7 @@
     "l": "pnpm link --global fulldev-ui"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.1.0",
+    "@astrojs/mdx": "^4.3.0",
     "@astrojs/react": "^4.2.1",
     "@astrojs/sitemap": "^3.2.1",
     "@icons-pack/react-simple-icons": "^12.1.0",

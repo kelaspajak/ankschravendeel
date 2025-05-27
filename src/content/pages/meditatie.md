@@ -1,8 +1,8 @@
 ---
-type: content
-title: Meditatie
-image:
-  src: /images/meditatie.jpeg
+# type: content
+# title: Meditatie
+# image:
+#   src: /images/meditatie.jpeg
 sections:
   - src/content/blocks/events.md
 seo:
@@ -11,7 +11,8 @@ seo:
     Ontdek Vipassana meditatie en leer gewaar zijn van je ervaringen.
     Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke
     groei.
-description: "Wat je ervoor nodig hebt, krijg je door het te doen"
+
+# description: "Wat je ervoor nodig hebt, krijg je door het te doen"
 ---
 
 # Vipassana meditatie

@@ -1,5 +1,5 @@
 ---
-type: post
+blog: index
 title: "De taal van handen en voeten"
 image:
   src: /images/de-taal-van-handen-en-voeten.jpeg
