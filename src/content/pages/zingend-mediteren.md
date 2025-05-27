@@ -7,6 +7,7 @@ image:
   src: /images/zingen-en-mediteren.jpeg
 sections:
   - src/content/blocks/events.md
+  - src/content/blocks/reviews-zingend-mediteren.md
 seo:
   title: Zingend Mediteren | Meditatie door Zang met Ank Schravendeel
   description: >-
@@ -19,48 +20,70 @@ seo:
 
 ![Zingend mediteren](/images/zingen-en-mediteren.jpeg)
 
-Zingen verbindt hart, hoofd en lichaam. Het bevordert concentratie en is een vreugdevolle ervaring die van toegevoegde waarde is voor mediteren.
+<p>
+  Ik werk samen met Arman Ameri Mahani, een Iraans musicus die zich heeft gewijd aan het leren van Dhrupad (Indiase klassieke muziek). Hij zingt raga’s en mantra’s en speelt op authentieke snaarinstrumenten.
+</p>
 
-Mediteren maakt open naar binnen - dat maakt ingetogen. Door meditatie kom je in verbinding met je lichaam, het hart opent voor wat je ervaart, je wordt bewust van je ervaring. Het gaat om ontvankelijk zijn en verstillen.
+<p>
+  Mediteren maakt open naar binnen: dat maakt ingetogen.
+  Door meditatie kom je in verbinding met je lichaam, het hart opent voor wat je ervaart, je wordt bewust van je ervaring. Ontvankelijk zijn, verstillen.
+</p>
 
-Zingen brengt klank naar buiten, dat resoneert en verbindt met elkaar - dat maakt opgetogen.
+<p>
+  Zingen brengt klank naar buiten, resoneert: dat maakt opgetogen.
+</p>
 
-Ank Schravendeel begeleidt vipassana meditatie en onderzoekt sinds 2017 manieren om zingen en mediteren te combineren. Arman Ameri Mahani is een Iraans musicus, die in India een opleiding klassieke muziek volgde (Dhrupad) en op het conservatorium in Groningen afstudeerde op meditatief zingen. Zij geven sinds het voorjaar 2024 samen dagen Zingen en mediteren.
+<h3>Wat voor ons belangrijk is in zingen en mediteren:</h3>
+<ul>
+  <li>Klank gaat voorbij woorden en concepten, net als het ervaren van wat je beleeft in de meditatie.</li>
+  <li>Je gebruikt je vaardigheid om te zingen en het overkomt je, ratio en intuïtie komen bij elkaar.</li>
+  <li>Mediteren maakt ingetogen, zingen maakt opgetogen: vreugde geeft concentratie.</li>
+  <li>Expressie geven, je laten horen, geeft verbondenheid.</li>
+</ul>
 
-## Wat kun je verwachten bij meditatief zingen?
+<blockquote className="text-center italic my-4">
+  <p>“a spiritual friend hears the song of your heart</p>
+  <p>and sings it back to you</p>
+  <p>when you forget”</p>
+  <footer>- Jan Surrey</footer>
+</blockquote>
 
-Arman gebruikt klankschalen en muziek uit India (Dhrupad). In India is de bakermat van de combinatie van spiritualiteit en muziek. Klank gaat vooraf aan concepten, jouw ideeën en meningen. Het begint in stilte, met één klank. We geven expressie aan wat gehoord wil worden, zonder die concepten en meningen.
+## Programma van een dag zingend mediteren
 
-Klank resoneert. Verschillende klinkers resoneren op verschillende plekken in ons lichaam. We kunnen de trilling voelen: meer in de borst bij een "oo", of in de keel bij een "ie". De overgang van de ene toonhoogte naar een andere roept een emotie op en vertelt een verhaal. Die klankafstanden (intervallen) kunnen we ervaren. Het gaat niet om het zingen van een melodie. Het gaat om de zeggingskracht van de tonen onderling. Dat geeft vreugde en maakt opgetogen.
+Tijdens een dag zingend en mediteren zal Arman werken met klankschalen en muziek uit India (Dhrupad). Klank gaat vooraf aan concepten, je verhalen. Het begint in stilte, met één klank. Je geeft expressie aan wat gehoord wil worden, zonder die concepten en verhalen. Klank resoneert.
 
-De klanken kunnen begeleid worden door een beweging, het bewegen van een hand, een arm, de romp. De beweging versterkt de expressie. Het lichaam raakt er ook via expressie bij betrokken, niet alleen via het resoneren, ook in het bewegen. De klank volgt de beweging, de beweging volgt de klank.
+We werken met verschillende klinkers die resoneren op verschillende plekken in je lichaam. Je kunt de trilling voelen: meer in je borst, bij een “oo”, of in je keel bij een “ie”. De overgang van de ene toonhoogte naar een andere roept een emotie op en vertelt een verhaal. Die klankafstanden (intervallen) kun je ervaren. Het gaat niet om het zingen van een melodie. Het gaat om de zeggingskracht van de tonen onderling. Dat geeft vreugde en maakt opgetogen.
 
-We zingen eenvoudige raga's (een improvisatie op een vijf-tonige toonladder) en mantra's (melodie met woorden die over wijsheid gaan). Arman improviseert verder op het klankbeeld van de raga. Dat kan op verschillende snaarinstrumenten. Dan kunnen we ervaren hoe de muziek ons aanraakt en aanspreekt.
+De klanken die we maken kunnen begeleid worden door een beweging, het bewegen van je hand, je arm, je romp. De beweging versterkt de expressie. Het lichaam raakt er ook via expressie bij betrokken, niet alleen via het resoneren, ook in het bewegen. De klank volgt de beweging, de beweging volgt de klank.
 
-Het zingen wordt afgewisseld met stilte en zitmeditatie.
+We zingen eenvoudige raga’s (een improvisatie op een vijf-tonige toonladder)en mantra’s (melodie met woorden die over wijsheid gaan).
 
-### Meer informatie
+Arman improviseert verder op het klankbeeld van de raga. Dat kan op verschillende snaarinstrumenten. Dan kun je ervaren hoe de muziek je aanraakt en aanspreekt.
 
-- Website Arman: [https://www.meditativesoundscape.com](https://www.meditativesoundscape.com)
-- Nieuwsgierig naar het verhaal van de ontdekkingstocht van Ank en Arman? Zij nemen je mee in hun verhaal in deze podcast.
-- Eerder meegedaan en verder willen zingen? Een opname van een aantal mantra's, zoals die ook worden gebruikt tijdens de dagen zingen en mediteren, vind je hier (na juni 2025).
+<h3>Begeleiding</h3>
 
-### (Jan Surrey)
+<h4>Arman Ameri Mahani</h4>
+<p>
+  Arman is van oorsprong een Iraanse musicus. Hij heeft zich een aantal jaren gewijd aan het beoefenen van Dhrupad (een Indiase Klassieke muziekvorm) waar het meditatieve zingen zijn oorsprong in vindt. Hij beoefent het meditatief zingen van raga’s en het bespelen van verschillende snaarinstrumenten. In de afgelopen twee jaar volgde hij een master opleiding aan het conservatorium in Groningen. Hij werkt als muziek therapeut met mensen met een zware verstandelijke beperking.
+</p>
 
-Programma van een dag zingend mediteren
+<h4>Ank Schravendeel</h4>
+<p>
+  Ank begeleidt vipassana meditatie sinds 2007 en ontwikkelde zingen als een vorm van mediteren sinds 2017. Ze vertaalt de aspecten van zingen (stilte, resonantie, expressie, vreugde, saamhorigheid) naar de toegevoegde waarde voor opmerkzaamheid.
+</p>
 
-- Zit meditatie
+<p>
+  Voertaal: Nederlands en Engels (met mogelijkheid tot vertaling)
+</p>
 
-- Contact maken met je lichaam, in beweging, door klank te maken en te voelen hoe dat vibreert, door het voelen van de trilling van klank schalen
+<p>
+  Als je meer informatie wilt over de stijl van zingen: website Arman: <a href="https://www.meditativesoundscape.com" target="_blank" rel="noopener noreferrer">https://www.meditativesoundscape.com</a>.
+</p>
 
-- Klank maken met ondersteuning van een tanpura (Indiaas snaarinstument), luisteren, afstemmen op elkaar
+<p>
+  Over onze verkenningstocht van het afgelopen jaar. <a href="#">Link toevoegen</a>
+</p>
 
-- Contact maken met je eigen grondtoon en gevoel voor ritme
-
-- Raga zingen (samen een melodie zingen, uit de klassieke Indiase muziek)
-
-- Improvisatie, zingend en spelend
-
-- Mantra zingen, het zingen van woorden die van betekenis voor je zijn, expressie geven aan wat waardevolle begrippen zijn (bv "Metta, karuna, mudita, uppekkha") Door het herhalen ontstaat verbondenheid
-
-- Raga zingen
+<p>
+  En een opname van een aantal mantra’s, zodat je mee kunt zingen. <a href="#">Link toevoegen, wordt nog geleverd</a>
+</p>

@@ -12,6 +12,6 @@ buttons:
   - text: Lees verder
     href: /over-mij/
 image:
-  src: /images/ank.jpeg
+  src: /images/placeholder.webp
   alt: Over mij
 ---
