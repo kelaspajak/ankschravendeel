@@ -1,4 +1,6 @@
 ---
+sections:
+  - hero-1.tsx
 seo:
   title: "Ank Schravendeel | Meditatie, Coaching & Spiritueler Begeleiding"
   description: >-
@@ -6,9 +8,3 @@ seo:
     meditatie, coaching en spirituele ontwikkeling. Start uw reis naar
     innerlijke rust en persoonlijke groei.
 ---
-
-import Hero1 from "@/blocks/hero-1"
-
-<Hero1 />
-
-hello there
