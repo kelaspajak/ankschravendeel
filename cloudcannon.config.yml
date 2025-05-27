@@ -15,3 +15,6 @@ collections_config:
     _enabled_editors:
       - visual
       - content
+
+_snippets_imports:
+  mdx: true
