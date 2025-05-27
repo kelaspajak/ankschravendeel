@@ -15,12 +15,20 @@ export default function () {
           Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.
         </p>
         <Button asChild size="lg">
-          <a href="/contact/">Neem contact op</a>
+          <a className="editable" href="/contact/">
+            Neem contact op
+          </a>
         </Button>
         <Button asChild size="lg" variant="ghost">
-          <a href="/meditatie/">Lees verder</a>
+          <a className="editable" href="/meditatie/">
+            Lees verder
+          </a>
         </Button>
-        <img className="mt-16 rounded-lg" src="/images/home.jpeg" alt="Hero" />
+        <img
+          className="editable mt-16 rounded-lg"
+          src="/images/home.jpeg"
+          alt="Hero"
+        />
       </div>
     </section>
   )
