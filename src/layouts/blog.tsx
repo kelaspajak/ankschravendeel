@@ -1,9 +1,9 @@
-import { Banner1 } from "@/blocks/banner-1.tsx"
-import { Footer1 } from "@/blocks/footer-1.tsx"
-import { Header1 } from "@/blocks/header-1.tsx"
+import { Banner1 } from "@/blocks/banner-1"
+import { Footer1 } from "@/blocks/footer-1"
+import { Header1 } from "@/blocks/header-1"
 import type { BlogSchema } from "@/schemas/blog"
 
-import { Layout } from "@/components/layout.tsx"
+import { Layout } from "@/components/layout"
 
 export default function Blog({
   title,

@@ -1,10 +1,10 @@
-import { Banner1 } from "@/blocks/banner-1.tsx"
-import { Footer1 } from "@/blocks/footer-1.tsx"
-import { Header1 } from "@/blocks/header-1.tsx"
+import { Banner1 } from "@/blocks/banner-1"
+import { Footer1 } from "@/blocks/footer-1"
+import { Header1 } from "@/blocks/header-1"
 import type { PageSchema } from "@/schemas/page"
 
-import { Blocks } from "@/components/blocks.tsx"
-import { Layout } from "@/components/layout.tsx"
+import { Blocks } from "@/components/blocks"
+import { Layout } from "@/components/layout"
 
 export default function Page({ seo, sections }: PageSchema) {
   return (

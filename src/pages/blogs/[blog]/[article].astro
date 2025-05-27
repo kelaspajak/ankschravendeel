@@ -1,5 +1,5 @@
 ---
-import ArticleLayout from "@/layouts/article.tsx"
+import ArticleLayout from "@/layouts/article"
 import { getCollection, render } from "astro:content"
 
 export async function getStaticPaths() {
@@ -19,6 +19,6 @@ const { data } = Astro.props
 const { Content } = await render(Astro.props)
 ---
 
-<ArticleLayout {...data}>
+<ArticleLayout client:load {...data}>
   <Content />
 </ArticleLayout>

@@ -1,5 +1,5 @@
 ---
-import BlogLayout from "@/layouts/blog.tsx"
+import BlogLayout from "@/layouts/blog"
 import { getCollection } from "astro:content"
 
 export async function getStaticPaths() {
@@ -17,4 +17,4 @@ export async function getStaticPaths() {
 const { data } = Astro.props
 ---
 
-<BlogLayout {...data} />
+<BlogLayout client:load {...data} />
