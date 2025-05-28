@@ -20,7 +20,7 @@ collections_config:
       - content
   blocks:
     path: src/blocks
-    url: /[full_slug]/
+    url: /
     icon: wysiwyg
     include_developer_files: true
     _enabled_editors:

@@ -46,7 +46,7 @@ export default function Hero1({
         alt={image.alt}
       />
       <div className="relative mx-auto flex w-full max-w-screen-xl flex-col items-center px-4 lg:px-8">
-        <Tagline size="sm" className="text-center">
+        <Tagline size="sm" className="editable text-center">
           {tagline}
         </Tagline>
         <Heading className="mt-4 text-center text-balance" as="h1" size="6xl">
