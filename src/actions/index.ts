@@ -1,9 +1,4 @@
 import fs from "node:fs/promises"
-import generate from "@babel/generator"
-import parser from "@babel/parser"
-import { default as traverse } from "@babel/traverse"
-import type { NodePath } from "@babel/traverse"
-import type { JSXText, StringLiteral } from "@babel/types"
 import { defineAction } from "astro:actions"
 import { z } from "astro:schema"
 import { parse, stringify } from "yaml"
@@ -41,19 +36,19 @@ export const server = {
   editBlock: defineAction({
     input: z.object({
       blockId: z.string(),
-      newText: z.string(),
-      editId: z.string(),
+      newContent: z.string(),
+      elementId: z.string(),
     }),
-    handler: async ({ blockId, newText, editId }) => {
+    handler: async ({ blockId, newContent, elementId }) => {
       try {
-        console.log("Action called with:", { blockId, newText, editId })
+        console.log("Action called with:", { blockId, newContent, elementId })
 
         const blockPath = `src/blocks/${blockId}.tsx`
         const fileContent = await fs.readFile(blockPath, "utf-8")
 
         // Simple regex to find element with data-edit attribute and capture its innerHTML
         const regex = new RegExp(
-          `(<[^>]*data-edit="${editId}"[^>]*>)([\\s\\S]*?)(<\/[^>]+>)`,
+          `(<[^>]*data-edit-element="${elementId}"[^>]*>)([\\s\\S]*?)(<\/[^>]+>)`,
           "g"
         )
 
@@ -65,8 +60,11 @@ export const server = {
           regex,
           (match, openingTag, innerHTML, closingTag) => {
             console.log("Found match:", { openingTag, innerHTML, closingTag })
-            const modifiedNewText = newText.replace(/<br\s*\/?>/g, "<br/>")
-            return openingTag + modifiedNewText + closingTag
+            const modifiedNewContent = newContent.replace(
+              /<br\s*\/?>/g,
+              "<br/>"
+            )
+            return openingTag + modifiedNewContent + closingTag
           }
         )
 

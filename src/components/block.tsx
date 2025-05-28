@@ -23,7 +23,7 @@ function Block({ id }: { id: string }) {
 
     // Get all the elements that are editable using data-edit attribute
     const elements = componentRef.current.querySelectorAll(
-      "h1, h2, h3, h4, h5, h6, p, a, span"
+      "[data-edit-element]"
     )
 
     // Make the elements editable
@@ -34,17 +34,15 @@ function Block({ id }: { id: string }) {
       // When the element is blurred (clicked outside of the element), save the changes
       element.addEventListener("blur", async (e) => {
         const target = e.target as HTMLElement
-        const innerHTML = target.innerHTML || ""
-        const innerTrimmed = innerHTML.trim()
+        const elementId = target.getAttribute("data-edit-element")
+        const newContent = target.innerHTML || ""
 
-        if (innerHTML) {
+        if (elementId) {
           await actions.editBlock({
             blockId: id,
-            newText: innerHTML,
-            editId: target.id,
+            newContent,
+            elementId,
           })
-
-          element.setAttribute("data-original-text", innerHTML || "")
         }
       })
     })

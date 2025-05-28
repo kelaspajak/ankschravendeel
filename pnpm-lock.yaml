@@ -258,6 +258,12 @@ importers:
       '@stackbit/types':
         specifier: ^2.1.14
         version: 2.1.14
+      '@types/babel__generator':
+        specifier: ^7.27.0
+        version: 7.27.0
+      '@types/babel__traverse':
+        specifier: ^7.20.7
+        version: 7.20.7
       '@types/node':
         specifier: ^22.13.9
         version: 22.15.21
