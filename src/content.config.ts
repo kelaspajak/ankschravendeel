@@ -1,9 +1,8 @@
 import { articleSchema } from "@/schemas/article"
+import { blogSchema } from "@/schemas/blog"
 import { pageSchema } from "@/schemas/page"
 import { defineCollection } from "astro:content"
 import { glob } from "astro/loaders"
-
-import { blogSchema } from "./schemas/blog"
 
 export const collections = {
   pages: defineCollection({

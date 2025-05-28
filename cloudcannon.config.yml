@@ -1,3 +1,5 @@
+source: /
+
 paths:
   static: public
   uploads: public/images
