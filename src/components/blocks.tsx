@@ -10,7 +10,7 @@ function Blocks({ blocks }: { blocks: string[] }) {
       {blocks.map((block, i) => {
         // Find the block in the blockImports object
         const blockKey = Object.keys(blockImports).find((key) =>
-          key.endsWith(block)
+          key.endsWith(block + ".tsx")
         )
 
         // Get the block component

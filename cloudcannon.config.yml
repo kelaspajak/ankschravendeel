@@ -8,12 +8,21 @@ collection_groups:
   - heading: Content
     collections:
       - pages
+      - blocks
 
 collections_config:
   pages:
     path: src/content/pages
     url: /[full_slug]/
     icon: wysiwyg
+    _enabled_editors:
+      - visual
+      - content
+  blocks:
+    path: src/blocks
+    url: /[full_slug]/
+    icon: wysiwyg
+    include_developer_files: true
     _enabled_editors:
       - visual
       - content

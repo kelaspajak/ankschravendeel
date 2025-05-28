@@ -1,6 +1,7 @@
 ---
 sections:
-  - hero-1.tsx
+  - hero
+  - services
 seo:
   title: "Ank Schravendeel | Meditatie, Coaching & Spiritueler Begeleiding"
   description: >-
