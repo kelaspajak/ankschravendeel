@@ -8,16 +8,24 @@ import integration from "./src/lib/integration"
 
 import mdx from "@astrojs/mdx";
 
+import netlify from "@astrojs/netlify";
+
 export default defineConfig({
   site: "https://ui.full.dev",
+
   prefetch: {
     prefetchAll: true,
   },
+
   devToolbar: {
     enabled: false,
   },
+
   integrations: [robotsTxt(), sitemap(), react(), integration(), mdx()],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  adapter: netlify(),
 })
