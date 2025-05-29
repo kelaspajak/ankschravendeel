@@ -45,6 +45,8 @@ collections_config:
       - content
 
 _inputs:
+  block:
+    hidden: true
   src:
     type: image
     options:
