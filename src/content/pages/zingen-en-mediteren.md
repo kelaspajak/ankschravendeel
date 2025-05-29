@@ -1,13 +1,30 @@
 ---
-title: "Zingend mediteren"
+title: "Zingen en mediteren"
 description: >-
   Mediteren maakt ingetogen, zingen maakt opgetogen.
 image:
   src: /images/zingen-en-mediteren.jpeg
+blocks:
+  - block: reviews-1
+    content: |
+      <h2>Wat anderen zeggen over zingen en mediteren</h2>
+    items:
+      - rating: 5
+        title: "Deelnemer"
+        description: >-
+          “Zingen is van toegevoegde waarde voor meditatie. En bewegen met klank ook”
+      - rating: 5
+        title: "Deelnemer"
+        description: >-
+          “Het zingen ging als vanzelf van binnen naar buiten. Ik voelde me opgenomen in de harmonie van klanken om me heen. Dat tilt me boven mezelf uit”
+      - rating: 5
+        title: "Deelnemer"
+        description: >-
+          “Lichaam en geest zijn compagnons in het zingen en daarna ook in het mediteren”
 seo:
-  title: Zingend Mediteren | Meditatie door Zang met Ank Schravendeel
+  title: Zingen en mediteren | Meditatie door Zang met Ank Schravendeel
   description: >-
-    Ontdek de kracht van zingend mediteren. Combineer zang en meditatie voor een
+    Ontdek de kracht van zingen en mediteren. Combineer zang en meditatie voor een
     unieke spirituele ervaring onder begeleiding van Ank Schravendeel en Arman
     Ameri.
 ---
@@ -40,9 +57,9 @@ seo:
   <footer>- Jan Surrey</footer>
 </blockquote>
 
-## Programma van een dag zingend mediteren
+## Programma van een dag zingen en mediteren
 
-Tijdens een dag zingend en mediteren zal Arman werken met klankschalen en muziek uit India (Dhrupad). Klank gaat vooraf aan concepten, je verhalen. Het begint in stilte, met één klank. Je geeft expressie aan wat gehoord wil worden, zonder die concepten en verhalen. Klank resoneert.
+Tijdens een dag zingen en mediteren zal Arman werken met klankschalen en muziek uit India (Dhrupad). Klank gaat vooraf aan concepten, je verhalen. Het begint in stilte, met één klank. Je geeft expressie aan wat gehoord wil worden, zonder die concepten en verhalen. Klank resoneert.
 
 We werken met verschillende klinkers die resoneren op verschillende plekken in je lichaam. Je kunt de trilling voelen: meer in je borst, bij een “oo”, of in je keel bij een “ie”. De overgang van de ene toonhoogte naar een andere roept een emotie op en vertelt een verhaal. Die klankafstanden (intervallen) kun je ervaren. Het gaat niet om het zingen van een melodie. Het gaat om de zeggingskracht van de tonen onderling. Dat geeft vreugde en maakt opgetogen.
 

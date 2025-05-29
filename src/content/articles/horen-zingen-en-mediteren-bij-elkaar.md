@@ -39,7 +39,7 @@ komen in de ervaring, het in het moment zijn.
 Je hoeft niets te presteren als je zingt. Enthousiasme en de
 bereidheid om de begeleider te volgen, dat is alles wat je nodig hebt.
 
-zingend mediteren-Arman Ameri en Ank SchravendeelEr zijn ook
+zingen en mediteren-Arman Ameri en Ank SchravendeelEr zijn ook
 valkuilen die zich in het zingen laten horen. In de eerste rede van de
 Boeddha over de Edele Waarheden wordt verlangen (hunkering) als de
 oorzaak genoemd van stress en reactiviteit. Verlangen om gezien te
@@ -77,7 +77,7 @@ het ritme” van wisselende ervaringen.
 
 > “Klank is de Moeder van muziek en ritme is de Vader van muziek” (Hazrat Inayat Kahn).
 
-Zingend mediteren wordt begeleidt door Ank Schravendeel en Arman
+Zingen en mediteren wordt begeleidt door Ank Schravendeel en Arman
 Ameri Mahani. Arman is geschoold in het zingen van raga en het bespelen
 van traditionele strijkinstrumenten uit India en Afghanistan (de Sarinda
 en Rabab). Raga’s maken deel uit van de traditionele Indiase muziek.
