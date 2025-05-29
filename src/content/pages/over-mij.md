@@ -1,7 +1,7 @@
 ---
 title: "Over mij"
 image:
-  src: "/images/placeholder.webp"
+  src: "/images/over-mij.jpeg"
   alt: "Ank Schravendeel"
 seo:
   title: Over Ank Schravendeel | Meditatie Begeleider & Coach

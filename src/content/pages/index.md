@@ -31,7 +31,7 @@ blocks:
       - text: "Lees verder"
         href: "/over-mij/"
     image:
-      src: "/images/ank.jpeg"
+      src: "/images/over-mij.jpeg"
       alt: "Ank Schravendeel"
   - block: pages-1
     content: |
