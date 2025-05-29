@@ -26,7 +26,7 @@ const matchingArticles = await getCollection("articles", (article) => {
 // Map over the matching articles and return the href and the data
 const items = matchingArticles.map((article) => {
   return {
-    href: `/blogs/${article.id}`,
+    href: getHref(article),
     ...article.data,
   }
 })

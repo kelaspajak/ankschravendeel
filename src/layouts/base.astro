@@ -7,6 +7,7 @@ import "@/styles/globals.css"
 
 import { SEO } from "astro-seo"
 
+import { getHref } from "@/lib/get-href"
 import Block from "@/components/block.astro"
 
 type Props = LayoutSchema
@@ -21,7 +22,7 @@ const layout = await getEntry("layouts", "base")
 const policies = (await getCollection("policies")).map((policy) => {
   return {
     text: policy.data.title,
-    href: `/policies/${policy.id}/`,
+    href: getHref(policy),
   }
 })
 ---
