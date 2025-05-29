@@ -43,6 +43,3 @@ collections_config:
     icon: wysiwyg
     _enabled_editors:
       - content
-
-_snippets_imports:
-  mdx: true
