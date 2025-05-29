@@ -43,3 +43,25 @@ collections_config:
     icon: wysiwyg
     _enabled_editors:
       - content
+
+_inputs:
+  src:
+    type: image
+    options:
+      accepts_mime_types: "image/jpeg,image/jpg,image/png,image/webp"
+      mime_type: image/webp
+      resize_style: contain
+      width: 1920
+      height: 1920
+  href:
+    type: url
+  rating:
+    type: range
+    options:
+      min: 0
+      max: 5
+      step: 0.5
+  paragraph:
+    type: textarea
+  content:
+    type: html
