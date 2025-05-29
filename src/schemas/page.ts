@@ -1,15 +1,17 @@
+import { blockSchema } from "@/schemas/block"
+import { seoSchema } from "@/schemas/seo"
 import { z } from "zod"
 
 export const pageSchema = z
   .object({
-    sections: z.string().array().optional(),
-    seo: z
-      .object({
-        title: z.string().optional(),
-        description: z.string().optional(),
+    blocks: blockSchema
+      .extend({
+        block: z.string(),
       })
-      .optional(),
+      .array(),
+    seo: seoSchema,
   })
+  .partial()
   .strict()
 
 export type PageSchema = z.infer<typeof pageSchema>

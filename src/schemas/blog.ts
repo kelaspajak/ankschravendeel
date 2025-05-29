@@ -1,15 +1,12 @@
+import { seoSchema } from "@/schemas/seo"
 import { z } from "zod"
 
 export const blogSchema = z
   .object({
     title: z.string(),
-    seo: z
-      .object({
-        title: z.string().optional(),
-        description: z.string().optional(),
-      })
-      .optional(),
+    seo: seoSchema,
   })
+  .partial()
   .strict()
 
 export type BlogSchema = z.infer<typeof blogSchema>

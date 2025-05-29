@@ -4,9 +4,9 @@
 # description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
 # image:
 #   src: /images/retraite.jpeg
-sections:
-  - src/content/blocks/events.md
-  - src/content/blocks/reviews-retraites.md
+# blocks:
+#   - src/content/blocks/events.md
+#   - src/content/blocks/reviews-retraites.md
 seo:
   title: Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel
   description: >-

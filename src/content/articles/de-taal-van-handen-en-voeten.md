@@ -5,10 +5,6 @@ image:
   src: /images/de-taal-van-handen-en-voeten.jpeg
 ---
 
-# De taal van handen en voeten
-
-![De taal van handen en voeten](/images/de-taal-van-handen-en-voeten.jpeg)
-
 Een wijze sjamaan zei: "Er bestaan drie talen in de hele wereld: de taal van stilte, de taal van handen, de taal van woorden".
 
 Tijdens een meditatie ochtend delen we de taal van stilte. Tot de vrouw die naast me zit me iets toefluistert. Ze leeft in een wereld vol verwarring en onrust, op zoek naar thuis. Ik wil niet terugpraten tijdens een zitmeditatie… Wat nu? Ik steek mijn hand uit. Ik voel haar hand in de mijne. Na een poosje laat ze me los. Op een zeker moment fluistert ze me iets toe. Ik steek mijn hand uit, zij houdt mijn hand een poosje in de hare.

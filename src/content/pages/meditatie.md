@@ -3,8 +3,8 @@
 # title: Meditatie
 # image:
 #   src: /images/meditatie.jpeg
-sections:
-  - src/content/blocks/events.md
+# blocks:
+#   - src/content/blocks/events.md
 seo:
   title: Vipassana Meditatie | Leer Mediteren met Ank Schravendeel
   description: >-

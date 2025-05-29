@@ -1,0 +1,35 @@
+---
+import BlogLayout from "@/layouts/blog.astro"
+import { getCollection, getEntry } from "astro:content"
+
+export async function getStaticPaths() {
+  const entries = await getCollection("blogs")
+  return entries.map((entry) => {
+    return {
+      params: {
+        blog: entry.id === "index" ? undefined : entry.id,
+      },
+      props: entry,
+    }
+  })
+}
+
+const layout = await getEntry("layouts", "base")
+
+const matchingArticles = await getCollection("articles", (article) => {
+  // If the blog is the index, return all articles
+  if (Astro.props.id === "index") return true
+  // else return the articles that match the blog id
+  return article.data.blog?.id === Astro.props.id
+})
+
+// Map over the matching articles and return the href and the data
+const items = matchingArticles.map((article) => {
+  return {
+    href: `/blogs/${article.id}`,
+    ...article.data,
+  }
+})
+---
+
+<BlogLayout {...layout?.data} {...Astro.props.data} items={items} />

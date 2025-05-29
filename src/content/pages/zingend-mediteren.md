@@ -5,9 +5,9 @@
 #   Mediteren maakt ingetogen, zingen maakt opgetogen.
 # image:
 #   src: /images/zingen-en-mediteren.jpeg
-sections:
-  - src/content/blocks/events.md
-  - src/content/blocks/reviews-zingend-mediteren.md
+# blocks:
+#   - src/content/blocks/events.md
+#   - src/content/blocks/reviews-zingend-mediteren.md
 seo:
   title: Zingend Mediteren | Meditatie door Zang met Ank Schravendeel
   description: >-

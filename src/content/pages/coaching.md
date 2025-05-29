@@ -3,8 +3,8 @@
 # title: Coaching
 # image:
 #   src: /images/coaching.jpeg
-sections:
-  - src/content/blocks/reviews.md
+# blocks:
+#   - src/content/blocks/reviews.md
 seo:
   title: Coaching | Persoonlijke & Professionele Coaching door Ank Schravendeel
   description: >-

@@ -1,0 +1,21 @@
+---
+import type { LayoutSchema } from "@/schemas/layout"
+import type { PageSchema } from "@/schemas/page"
+
+import { Block } from "@/components/block"
+import { Blocks } from "@/components/blocks"
+import { Layout } from "@/components/layout"
+
+type Props = PageSchema & LayoutSchema
+
+const { blocks, banner, header, footer, ...props } = Astro.props
+---
+
+<Layout {...props}>
+  <Block client:load {...banner} />
+  <Block client:load {...header} />
+  <main>
+    <Blocks client:load blocks={blocks} />
+  </main>
+  <Block client:load {...footer} />
+</Layout>

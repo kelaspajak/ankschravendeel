@@ -5,8 +5,6 @@ image:
   src: /images/horen-zingen-en-mediteren-bij-elkaar.jpeg
 ---
 
-## Horen zingen en mediteren bij elkaar?
-
 In iedere spirituele traditie wordt gezongen. In de traditie van
 Theravada Boeddhisme worden de leringen van de Boedha gechant door de
 monniken en nonnen. Dat is een onderdeel van hun gezamenlijke

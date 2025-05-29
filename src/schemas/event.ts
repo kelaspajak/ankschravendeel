@@ -1,24 +1,17 @@
+import { imageSchema } from "@/schemas/image"
+import { seoSchema } from "@/schemas/seo"
 import { z } from "zod"
 
 export const eventSchema = z
   .object({
     title: z.string(),
-    description: z.string().optional(),
-    when: z.string().optional(),
-    where: z.string().optional(),
-    image: z
-      .object({
-        src: z.string(),
-        alt: z.string().optional(),
-      })
-      .optional(),
-    seo: z
-      .object({
-        title: z.string().optional(),
-        description: z.string().optional(),
-      })
-      .optional(),
+    description: z.string(),
+    when: z.string(),
+    where: z.string(),
+    image: imageSchema,
+    seo: seoSchema,
   })
+  .partial()
   .strict()
 
 export type EventSchema = z.infer<typeof eventSchema>

@@ -1,8 +1,8 @@
 ---
 # type: content
 # title: Neem gerust contact met mij op
-sections:
-  - src/content/blocks/contact.md
+# blocks:
+#   - src/content/blocks/contact.md
 seo:
   title: Contact | Ank Schravendeel - Meditatie & Coaching
   description: >-
