@@ -15,6 +15,7 @@ collection_groups:
 
 collections_config:
   pages:
+    name: Pagina's
     path: src/content/pages
     url: /[full_slug]/
     icon: wysiwyg
@@ -22,22 +23,26 @@ collections_config:
       - visual
       - content
   articles:
+    name: Artikelen
     path: src/content/articles
     icon: wysiwyg
     _enabled_editors:
       - content
+  blogs:
+    name: Blogs
+    path: src/content/blogs
+    icon: wysiwyg
+    _enabled_editors:
+      - data
   events:
+    name: Agenda
     path: src/content/events
     url: /events/[full_slug]/
     icon: wysiwyg
     _enabled_editors:
       - content
-  blogs:
-    path: src/content/blogs
-    icon: wysiwyg
-    _enabled_editors:
-      - data
   policies:
+    name: Beleid
     path: src/content/policies
     url: /policies/[full_slug]/
     icon: wysiwyg
