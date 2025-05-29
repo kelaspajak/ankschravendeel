@@ -1,6 +1,6 @@
 ---
 import ArticleLayout from "@/layouts/article.astro"
-import { getCollection, getEntry, render } from "astro:content"
+import { getCollection, render } from "astro:content"
 
 export async function getStaticPaths() {
   const entries = await getCollection("articles")
@@ -15,11 +15,9 @@ export async function getStaticPaths() {
   })
 }
 
-const layout = await getEntry("layouts", "base")
-
 const { Content } = await render(Astro.props)
 ---
 
-<ArticleLayout {...layout?.data} {...Astro.props.data}>
+<ArticleLayout {...Astro.props.data}>
   <Content />
 </ArticleLayout>

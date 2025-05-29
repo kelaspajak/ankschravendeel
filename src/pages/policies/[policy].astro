@@ -1,0 +1,18 @@
+---
+import PolicyLayout from "@/layouts/policy.astro"
+import { getCollection } from "astro:content"
+
+export async function getStaticPaths() {
+  const entries = await getCollection("policies")
+  return entries.map((entry) => {
+    return {
+      params: {
+        policy: entry.id,
+      },
+      props: entry,
+    }
+  })
+}
+---
+
+<PolicyLayout {...Astro.props.data} />

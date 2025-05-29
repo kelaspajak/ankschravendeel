@@ -1,14 +1,28 @@
 ---
 import type { LayoutSchema } from "@/schemas/layout"
+import { getCollection, getEntry } from "astro:content"
 
 import "@/styles/globals.css"
 
 import { SEO } from "astro-seo"
 
+import { Block } from "@/components/block"
+
 type Props = LayoutSchema
 
 const { lang, title, description, image, company, head, body, css } =
   Astro.props
+
+// Get the base layout, including the banner, header, footer etc.
+const layout = await getEntry("layouts", "base")
+
+// Get the policies from the policies collection and map them to the href and text
+const policies = (await getCollection("policies")).map((policy) => {
+  return {
+    text: policy.data.title,
+    href: `/policies/${policy.id}/`,
+  }
+})
 ---
 
 <!doctype html>
@@ -43,7 +57,12 @@ const { lang, title, description, image, company, head, body, css } =
     <Fragment set:html={head} />
   </head>
   <body>
-    <slot />
+    <Block client:load {...layout?.data.banner} />
+    <Block client:load {...layout?.data.header} />
+    <main>
+      <slot />
+    </main>
+    <Block client:load {...layout?.data.footer} policies={policies} />
     <style set:html={css}></style>
     <Fragment set:html={body} />
   </body>

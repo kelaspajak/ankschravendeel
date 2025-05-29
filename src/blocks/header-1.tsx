@@ -8,7 +8,7 @@ import { NavigationMenu } from "@/components/navigation-menu"
 
 export default function ({ text, logo, menus, buttons }: BlockSchema) {
   return (
-    <header className="header bg-background/95 supports-[backdrop-filter]:bg-background/80 z-50 flex h-14 w-full border-b backdrop-blur">
+    <header className="header bg-background/95 supports-[backdrop-filter]:bg-background/80 relative z-50 flex h-14 w-full border-b backdrop-blur">
       <div className="mx-auto flex w-full max-w-screen-xl items-center justify-between gap-4 px-4 max-sm:gap-0 lg:px-8">
         <div className="flex items-center gap-2">
           {menus && <DrawerMenu className="-ml-2.5 lg:hidden" items={menus} />}
@@ -21,13 +21,15 @@ export default function ({ text, logo, menus, buttons }: BlockSchema) {
             </a>
           )}
           {text && (
-            <Heading
-              size="lg"
-              as="h6"
-              className="mr-3 whitespace-nowrap max-sm:hidden lg:hidden xl:flex"
-            >
-              {text}
-            </Heading>
+            <a href="/">
+              <Heading
+                size="lg"
+                as="h6"
+                className="mr-3 whitespace-nowrap max-sm:hidden lg:hidden xl:flex"
+              >
+                {text}
+              </Heading>
+            </a>
           )}
           {menus && (
             <NavigationMenu

@@ -4,6 +4,7 @@ import { z } from "zod"
 
 export const pageSchema = z
   .object({
+    layout: z.literal("article"),
     blocks: blockSchema
       .extend({
         block: z.string(),

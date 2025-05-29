@@ -29,8 +29,11 @@ header:
       href: /contact/
 footer:
   block: footer-1
-  logo:
-    src: /images/placeholder.webp
+  heading: Ank Schravendeel
+  paragraph: >
+    Meditatie: zijn met wat er is en dat toelaten.
+    Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.
+  company: Ank Schravendeel
   menus:
     - text: Contact
       href: /contact/

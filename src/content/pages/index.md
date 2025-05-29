@@ -58,19 +58,19 @@ blocks:
       <h2>De laatste informatie </h2>
     items:
       - title: "De geest laten opbloeien"
-        href: "/articles/de-geest-laten-opbloeien/"
+        href: "/blogs/de-geest-laten-opbloeien/"
         description: "Wonderlijk, hoe die geest kan malen, toch vaak aangejaagd door bezorgdheid. En hoe die geest zich kan ontwikkelen, kan opbloeien."
         image:
           src: "/images/foto blog opbloeien geest.jpeg"
           alt: "De geest laten opbloeien"
       - title: "Horen zingen en mediteren bij elkaar?"
-        href: "/articles/horen-zingen-en-mediteren-bij-elkaar/"
+        href: "/blogs/horen-zingen-en-mediteren-bij-elkaar/"
         description: "In iedere spirituele traditie wordt gezongen. Zingen opent het hart, het resoneert in het lichaam, het harmoniseert de geest."
         image:
           src: "/images/horen-zingen-en-mediteren-bij-elkaar.jpeg"
           alt: "Horen zingen en mediteren bij elkaar"
       - title: "De taal van handen en voeten"
-        href: "/articles/de-taal-van-handen-en-voeten/"
+        href: "/blogs/de-taal-van-handen-en-voeten/"
         description: "Er bestaan drie talen in de hele wereld: de taal van stilte, de taal van handen, de taal van woorden."
         image:
           src: "/images/de-taal-van-handen-en-voeten.jpeg"

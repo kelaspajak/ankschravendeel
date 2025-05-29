@@ -1,6 +1,6 @@
 ---
 import BlogLayout from "@/layouts/blog.astro"
-import { getCollection, getEntry } from "astro:content"
+import { getCollection } from "astro:content"
 
 export async function getStaticPaths() {
   const entries = await getCollection("blogs")
@@ -13,8 +13,6 @@ export async function getStaticPaths() {
     }
   })
 }
-
-const layout = await getEntry("layouts", "base")
 
 const matchingArticles = await getCollection("articles", (article) => {
   // If the blog is the index, return all articles
@@ -32,4 +30,4 @@ const items = matchingArticles.map((article) => {
 })
 ---
 
-<BlogLayout {...layout?.data} {...Astro.props.data} items={items} />
+<BlogLayout {...Astro.props.data} items={items} />

@@ -1,7 +1,5 @@
-import * as React from "react"
 import type { BlockSchema } from "@/schemas/block"
 
-import { cn } from "@/lib/utils"
 import { Heading } from "@/components/ui/heading"
 import { Logo } from "@/components/ui/logo"
 import { Social } from "@/components/ui/social"
@@ -77,7 +75,7 @@ export default function ({
             <div className="flex items-center gap-x-6 gap-y-1">
               {policies &&
                 policies.length > 0 &&
-                policies.map(({ text, href }) => (
+                policies.map(({ text, href }: any) => (
                   <a
                     className="text-muted-foreground hover:text-foreground text-xs transition-colors"
                     key={href}
