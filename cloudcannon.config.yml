@@ -18,11 +18,24 @@ collections_config:
     _enabled_editors:
       - visual
       - content
-  blocks:
-    path: src/blocks
-    url: /
+  articles:
+    path: src/content/articles
+    url: /articles/[full_slug]/
     icon: wysiwyg
-    include_developer_files: true
+    _enabled_editors:
+      - visual
+      - content
+  events:
+    path: src/content/events
+    url: /events/[full_slug]/
+    icon: wysiwyg
+    _enabled_editors:
+      - visual
+      - content
+  blogs:
+    path: src/content/blogs
+    url: /blogs/[full_slug]/
+    icon: wysiwyg
     _enabled_editors:
       - visual
       - content
