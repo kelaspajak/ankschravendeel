@@ -1,16 +1,9 @@
 ---
-type: event
-title: Vipassana tiendaagse retraite
+title: Vipassana tiendaagse zomer retraite
 when: 4 augustus - 14 augustus 2025
 where: De Maanhoeve, Exloërveen 18a, 9574 PB Exloërveen, Drenthe
 description: Begeleiding door Ank Schravendeel & Katleen Janssens
 ---
-
-# STICHTING INZICHTS MEDITATIE
-
-## ZOMERRETRAITE
-
-### Vipassana tiendaagse retraite
 
 Maandag 4 t/m donderdag 14 augustus 2025 in de Maanhoeve, Exloërveen
 

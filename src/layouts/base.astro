@@ -1,12 +1,13 @@
 ---
 import type { LayoutSchema } from "@/schemas/layout"
+import { Font } from "astro:assets"
 import { getCollection, getEntry } from "astro:content"
 
 import "@/styles/globals.css"
 
 import { SEO } from "astro-seo"
 
-import { Block } from "@/components/block"
+import Block from "@/components/block.astro"
 
 type Props = LayoutSchema
 
@@ -54,15 +55,16 @@ const policies = (await getCollection("policies")).map((policy) => {
         },
       }}
     />
+    <Font cssVariable="--font-sans" preload />
     <Fragment set:html={head} />
   </head>
   <body>
-    <Block client:load {...layout?.data.banner} />
-    <Block client:load {...layout?.data.header} />
+    <Block {...layout?.data.banner} />
+    <Block {...layout?.data.header} />
     <main>
       <slot />
     </main>
-    <Block client:load {...layout?.data.footer} policies={policies} />
+    <Block {...layout?.data.footer} policies={policies} />
     <style set:html={css}></style>
     <Fragment set:html={body} />
   </body>

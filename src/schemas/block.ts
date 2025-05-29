@@ -1,6 +1,7 @@
 import { imageSchema } from "@/schemas/image"
 import { linkSchema } from "@/schemas/link"
 import { menuSchema } from "@/schemas/menu"
+import { reference } from "astro:content"
 import { z } from "zod"
 
 export const blockSchema = z
@@ -15,6 +16,9 @@ export const blockSchema = z
     menus: menuSchema.array(),
     text: z.string(),
     socials: z.string().array(),
+    pages: reference("pages").array(),
+    articles: reference("articles").array(),
+    events: reference("events").array(),
     items: z
       .object({
         title: z.string(),
@@ -31,6 +35,7 @@ export const blockSchema = z
     hours: z.any().array(),
     company: z.any(),
     policies: z.any(),
+    form: z.any(),
   })
   .partial()
   .strict()

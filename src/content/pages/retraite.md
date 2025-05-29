@@ -1,12 +1,9 @@
 ---
-# type: content
-# title: Meditatie retraite
-# description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
-# image:
-#   src: /images/retraite.jpeg
-# blocks:
-#   - src/content/blocks/events.md
-#   - src/content/blocks/reviews-retraites.md
+title: "Meditatie retraite"
+description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
+image:
+  src: "/images/retraite.jpeg"
+  alt: "Retraite"
 seo:
   title: Meditatie Retraite | Verdiep je Meditatie met Ank Schravendeel
   description: >-
@@ -14,10 +11,6 @@ seo:
     in een rustige omgeving met professionele begeleiding en verdiep je
     spirituele reis.
 ---
-
-# Op retraite
-
-![Retraite](/images/retraite.jpeg)
 
 Mediteren leren we door het te doen. Door het langer achter elkaar te doen, door op retraite te gaan, verdiepen we het meditatieproces. Tijdens een hele dag, een weekend of een week samen mediteren worden ook de dagelijkse bezigheden deel van de meditatie. De retraites zijn in stilte. Door niet met elkaar te praten hebben we de mogelijkheid om onze gewoontes - van vooruit denken, beoordelen, iets willen bereiken of veranderen - te leren zien. Het is een grote investering en het geeft je de kans om veel over jezelf te leren.
 

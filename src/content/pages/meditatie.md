@@ -1,23 +1,17 @@
 ---
-# type: content
-# title: Meditatie
-# image:
-#   src: /images/meditatie.jpeg
-# blocks:
-#   - src/content/blocks/events.md
+title: "Meditatie"
+description: "Wat je ervoor nodig hebt, krijg je door het te doen"
+image:
+  src: "/images/meditatie.jpeg"
+  alt: "Meditatie"
 seo:
   title: Vipassana Meditatie | Leer Mediteren met Ank Schravendeel
   description: >-
     Ontdek Vipassana meditatie en leer gewaar zijn van je ervaringen.
     Professionele begeleiding in meditatie voor innerlijke rust en persoonlijke
     groei.
-
-# description: "Wat je ervoor nodig hebt, krijg je door het te doen"
 ---
 
-# Vipassana meditatie
-
-![Meditatie](/images/meditatie.jpeg)
 De kern van Vipassana meditatie is opmerkzaam zijn. Weten wat we ervaren. Gewaar zijn van wat we in ons lichaam voelen, wat we denken en wat we voelen. Die simpele menselijke ervaringen leren gebruiken om ze te herkennen. En dat steeds opnieuw toepassen.
 
 Mediteren is ervaringsleren, we leren het door het te doen. We hoeven onszelf niet te forceren, we hoeven niet aan bepaalde eisen te voldoen. We oefenen vanuit een innerlijke houding van nieuwsgierig zijn en met belangstelling volgen. Zo leren we te nemen wat er komt en dat te laten zoals het gaat. We kunnen voldoening vinden in het feit dat we opmerkzaam kunnen zijn. We hoeven geen Boeddhist te zijn of te worden, om de vruchten te plukken van mediteren.

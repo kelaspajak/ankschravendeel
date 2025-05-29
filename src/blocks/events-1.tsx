@@ -4,7 +4,7 @@ import { Heading } from "@/components/ui/heading"
 import { Paragraph } from "@/components/ui/paragraph"
 import { Writeup } from "@/components/ui/writeup"
 
-function Events1({ content, items }: BlockSchema) {
+export default function ({ content, items }: BlockSchema) {
   return (
     <section className="relative w-full py-16">
       <div className="mx-auto flex w-full max-w-screen-md flex-col px-4 md:px-12">
@@ -25,5 +25,3 @@ function Events1({ content, items }: BlockSchema) {
     </section>
   )
 }
-
-export { Events1 }

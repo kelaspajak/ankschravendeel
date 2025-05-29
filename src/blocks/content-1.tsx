@@ -17,7 +17,7 @@ function Content1({
     <section className="relative w-full py-16">
       <div className="mx-auto flex w-full max-w-screen-md flex-col px-4 lg:px-8">
         {heading && (
-          <Heading className="mb-4" as="h1" size="4xl">
+          <Heading className="mb-4" as="h1" size="5xl">
             {heading}
           </Heading>
         )}

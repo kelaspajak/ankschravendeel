@@ -1,23 +1,16 @@
 ---
-# type: content
-# title: Coaching
-# image:
-#   src: /images/coaching.jpeg
-# blocks:
-#   - src/content/blocks/reviews.md
+title: "Coaching"
+description: "Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt"
+image:
+  src: "/images/coaching.jpeg"
+  alt: "Coaching"
 seo:
   title: Coaching | Persoonlijke & Professionele Coaching door Ank Schravendeel
   description: >-
     Professionele coaching voor persoonlijke groei en ontwikkeling. Ontdek hoe
     coaching je kan helpen bij het verhelderen van je doelen en het maken van
     bewuste keuzes.
-
-# description: "Voor wie een coach zoekt, die vanuit een boeddhistisch perspectief werkt "
 ---
-
-# Coaching
-
-![Coaching](/images/coaching.jpeg)
 
 Coaching is gericht op verhelderen, verdiepen en versterken. Een probleem in werk of in levensloop geeft de noodzaak – en kans – om te onderzoeken wat je drijft en wat je hindert. een boeddhistische manier van kijken naar een probleem geeft ruimte en openheid: "Wat hindert, helpt"
 

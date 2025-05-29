@@ -1,13 +1,9 @@
 ---
-# type: content
-# title: Zingend mediteren
-# description: >-
-#   Mediteren maakt ingetogen, zingen maakt opgetogen.
-# image:
-#   src: /images/zingen-en-mediteren.jpeg
-# blocks:
-#   - src/content/blocks/events.md
-#   - src/content/blocks/reviews-zingend-mediteren.md
+title: "Zingend mediteren"
+description: >-
+  Mediteren maakt ingetogen, zingen maakt opgetogen.
+image:
+  src: /images/zingen-en-mediteren.jpeg
 seo:
   title: Zingend Mediteren | Meditatie door Zang met Ank Schravendeel
   description: >-
@@ -15,10 +11,6 @@ seo:
     unieke spirituele ervaring onder begeleiding van Ank Schravendeel en Arman
     Ameri.
 ---
-
-# Zingend mediteren
-
-![Zingend mediteren](/images/zingen-en-mediteren.jpeg)
 
 <p>
   Ik werk samen met Arman Ameri Mahani, een Iraans musicus die zich heeft gewijd aan het leren van Dhrupad (Indiase klassieke muziek). Hij zingt raga’s en mantra’s en speelt op authentieke snaarinstrumenten.

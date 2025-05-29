@@ -1,13 +1,12 @@
 ---
-# type: content
-# title: Agenda
-# image:
-#   src: /images/organiseren-plannen-overzicht.jpeg
-# blocks:
-#   - src/content/blocks/events.md
+blocks:
+  - block: events-1
+    content: |
+      <h1>Wat er gepland staat</h1>
+    events:
+      - vipassana-retraite
+      - zomer-retraite
 seo:
   title: "Agenda | Ank Schravendeel - Meditatie & Coaching"
   description: "Bekijk de agenda voor aankomende meditatie sessies, retraites en coaching events. Plan uw deelname aan onze mindfulness activiteiten."
 ---
-
-![Agenda](/images/organiseren-plannen-overzicht.jpeg)

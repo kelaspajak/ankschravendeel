@@ -2,12 +2,14 @@
 import BlogLayout from "@/layouts/blog.astro"
 import { getCollection } from "astro:content"
 
+import { getHref } from "@/lib/get-href"
+
 export async function getStaticPaths() {
   const entries = await getCollection("blogs")
   return entries.map((entry) => {
     return {
       params: {
-        blog: entry.id === "index" ? undefined : entry.id,
+        blog: getHref(entry),
       },
       props: entry,
     }

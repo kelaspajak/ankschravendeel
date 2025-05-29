@@ -1,15 +1,15 @@
 ---
-import Page from "@/layouts/page.astro"
+import EventLayout from "@/layouts/event.astro"
 import { getCollection, render } from "astro:content"
 
 import { getHref } from "@/lib/get-href"
 
 export async function getStaticPaths() {
-  const entries = await getCollection("pages")
+  const entries = await getCollection("events")
   return entries.map((entry) => {
     return {
       params: {
-        page: getHref(entry) === "/" ? undefined : entry.id,
+        event: getHref(entry),
       },
       props: entry,
     }
@@ -19,6 +19,6 @@ export async function getStaticPaths() {
 const { Content } = await render(Astro.props)
 ---
 
-<Page {...Astro.props.data}>
+<EventLayout {...Astro.props.data}>
   <Content />
-</Page>
+</EventLayout>

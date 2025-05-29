@@ -4,22 +4,27 @@ import BaseLayout from "@/layouts/base.astro"
 import type { LayoutSchema } from "@/schemas/layout"
 import type { PageSchema } from "@/schemas/page"
 
-import { Blocks } from "@/components/blocks"
+import Block from "@/components/block.astro"
 
 type Props = PageSchema & LayoutSchema
 
-const { blocks, ...props } = Astro.props
+const { title, description, image, blocks, ...props } = Astro.props
 
 const slot = await Astro.slots.render("default")
 ---
 
-<BaseLayout {...props}>
+<BaseLayout title={title} description={description} image={image} {...props}>
   {
     slot.trim().length > 0 && (
-      <Content1 client:load {...props}>
+      <Content1
+        client:load
+        heading={title}
+        paragraph={description}
+        image={image}
+      >
         <Fragment set:html={slot} />
       </Content1>
     )
   }
-  <Blocks client:load blocks={blocks} />
+  {blocks?.map((block) => <Block {...block} />)}
 </BaseLayout>

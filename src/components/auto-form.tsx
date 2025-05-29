@@ -67,7 +67,7 @@ interface Props extends React.FormHTMLAttributes<HTMLFormElement> {
   }[]
 }
 
-function Form({ inbox, fields, submit, className, ...props }: Props) {
+function AutoForm({ inbox, fields, submit, className, ...props }: Props) {
   const form = useForm()
 
   return fields ? (
@@ -238,4 +238,4 @@ function Form({ inbox, fields, submit, className, ...props }: Props) {
   ) : null
 }
 
-export { Form }
+export { AutoForm }
