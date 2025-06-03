@@ -99,17 +99,9 @@ blocks:
           weer verder kon op mijn levenspad.
         rating: 5
   - block: cta-1
-<<<<<<< HEAD
     content: |
       <h2>Neem gerust contact met mij op</h2>
       <p>Neem gerust contact met mij op, stel je vraag via onderstaand contactformulier, of geef me een seintje of telefoontje.</p>
-=======
-    content: >
-      <h2>In contact komen?</h2>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
->>>>>>> 194342605cc9239f262254f97ffa0f59c267bdf7
     buttons:
       - text: Neem contact op
         href: /contact/
