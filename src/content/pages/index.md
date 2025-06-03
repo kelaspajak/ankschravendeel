@@ -3,7 +3,7 @@ blocks:
   - block: hero-4
     content: >-
       <h1>Krijg inzicht door meditatie en coaching met Ank
-      Schravendeel!</h1><p>Meditatie: zijn met wat er is en dat toelaten.<br
+      Schravendeel</h1><p>Meditatie: zijn met wat er is en dat toelaten.<br
       />Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.</p>
     buttons:
       - text: Neem contact op
@@ -14,8 +14,7 @@ blocks:
       src: /images/home.jpeg
       alt: Hero
   - block: pages-1
-    content: |
-      <h2>Een overzicht van mijn aanbod </h2>
+    content: <h2>Een overzicht van mijn aanbod</h2>
     pages:
       - coaching
       - meditatie
