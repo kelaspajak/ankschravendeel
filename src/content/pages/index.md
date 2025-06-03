@@ -7,8 +7,8 @@ blocks:
     buttons:
       - text: "Neem contact op"
         href: "/contact/"
-      - text: "Lees verder"
-        href: "/meditatie/"
+      - text: "Bekijk aanbod"
+        href: "/#aanbod"
     image:
       src: "/images/home.jpeg"
       alt: "Hero"
@@ -70,8 +70,8 @@ blocks:
         rating: 5
   - block: cta-1
     content: |
-      <h2>In contact komen?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h2>Neem gerust contact met mij op</h2>
+      <p>Neem gerust contact met mij op, stel je vraag via onderstaand contactformulier, of geef me een seintje of telefoontje.</p>
     buttons:
       - text: "Neem contact op"
         href: "/contact/"
