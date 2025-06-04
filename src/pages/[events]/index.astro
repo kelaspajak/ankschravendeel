@@ -1,0 +1,28 @@
+---
+import Events1 from "@/blocks/events-1"
+import slugs from "@/data/slugs.json"
+import { getCollection } from "astro:content"
+
+import Layout from "@/components/layout.astro"
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: {
+        events: slugs.events,
+      },
+    },
+  ]
+}
+
+const events = (await getCollection("events")).map((event) => {
+  return {
+    ...event.data,
+    href: `/${slugs.events}/${event.id}/`,
+  }
+})
+---
+
+<Layout>
+  <Events1 events={events} />
+</Layout>

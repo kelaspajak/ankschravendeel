@@ -1,9 +1,12 @@
 ---
-blog: index
 title: Horen zingen en mediteren bij elkaar?
+description: >-
+  In iedere spirituele traditie wordt gezongen. Zingen opent het hart,
+  het resoneert in het lichaam, het harmoniseert de geest.
 image:
   src: /images/horen-zingen-en-mediteren-bij-elkaar.jpeg
 ---
+
 In iedere spirituele traditie wordt gezongen. In de traditie van Theravada Boeddhisme worden de leringen van de Boedha gechant door de monniken en nonnen. Dat is een onderdeel van hun gezamenlijke beoefening. Zo wordt een gezamenlijke expressie gegeven aan de Dhamma en worden de teksten onthouden.
 
 Zingen is iets anders dan chanten. Zingen opent het hart, het resoneert in het lichaam, het harmoniseert de geest, het geeft vreugde. Het resoneert met dezelfde geestesgesteldheid als metta-meditatie: het saamhorige, de vreugde en lichtheid die het brengt, het afstemmen op in harmonie zijn.

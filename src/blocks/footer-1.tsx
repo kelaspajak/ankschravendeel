@@ -1,4 +1,4 @@
-import type { BlockSchema } from "@/schemas/block"
+import type { BlockProps } from "@/schemas/block"
 
 import { Heading } from "@/components/ui/heading"
 import { Logo } from "@/components/ui/logo"
@@ -16,7 +16,7 @@ export default function ({
   company,
   policies,
   hours,
-}: BlockSchema) {
+}: BlockProps) {
   return (
     <footer className="footer bg-background relative mt-auto w-full justify-end justify-self-end">
       <div className="mx-auto w-full max-w-screen-xl px-4 lg:px-8">

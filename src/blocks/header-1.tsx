@@ -1,4 +1,4 @@
-import type { BlockSchema } from "@/schemas/block"
+import type { BlockProps } from "@/schemas/block"
 
 import { Button } from "@/components/ui/button"
 import { Heading } from "@/components/ui/heading"
@@ -6,7 +6,7 @@ import { Logo } from "@/components/ui/logo"
 import { DrawerMenu } from "@/components/drawer-menu"
 import { NavigationMenu } from "@/components/navigation-menu"
 
-export default function ({ text, logo, menus, buttons }: BlockSchema) {
+export default function ({ text, logo, menus, buttons }: BlockProps) {
   return (
     <header className="header bg-background/95 supports-[backdrop-filter]:bg-background/80 relative z-50 flex h-14 w-full border-b backdrop-blur">
       <div className="mx-auto flex w-full max-w-screen-xl items-center justify-between gap-4 px-4 max-sm:gap-0 lg:px-8">

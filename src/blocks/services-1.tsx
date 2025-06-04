@@ -1,16 +1,20 @@
-import type { BlockSchema } from "@/schemas/block"
+import type { BlockProps } from "@/schemas/block"
 
 import { Heading } from "@/components/ui/heading"
 import { Paragraph } from "@/components/ui/paragraph"
 import { Writeup } from "@/components/ui/writeup"
 
-export default function ({ content, items }: BlockSchema) {
+export default function ({ children, services }: BlockProps) {
   return (
     <section className="w-full py-16">
       <div className="mx-auto flex max-w-screen-xl flex-col px-4 lg:px-8">
-        <Writeup className="mb-12" size="4xl" content={content} />
+        {children && (
+          <Writeup className="mb-12" size="4xl">
+            {children}
+          </Writeup>
+        )}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {items?.map(({ href, title, description, image }) => (
+          {services?.map(({ href, title, description, image }) => (
             <a
               className="group cursor-pointer overflow-hidden"
               key={href}

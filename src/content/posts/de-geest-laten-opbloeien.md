@@ -1,7 +1,8 @@
 ---
-blog: index
 title: De geest laten opbloeien
-description: ""
+description: >-
+  Wonderlijk, hoe die geest kan malen, toch vaak aangejaagd door
+  bezorgdheid. En hoe die geest zich kan ontwikkelen, kan opbloeien.
 image:
   src: /images/foto blog opbloeien geest.jpeg
   alt: De geest laten opbloeien

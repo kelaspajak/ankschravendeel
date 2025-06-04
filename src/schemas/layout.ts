@@ -6,6 +6,8 @@ export const layoutSchema = z
   .object({
     title: z.string(),
     description: z.string(),
+    heading: z.string(),
+    paragraph: z.string(),
     image: imageSchema,
     company: z.string(),
     lang: z.string(),

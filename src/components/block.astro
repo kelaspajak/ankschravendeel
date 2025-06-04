@@ -1,44 +1,13 @@
 ---
-import type { BlockSchema } from "@/schemas/block"
-import { getEntries } from "astro:content"
+import { transformBlock, type BlockSchema } from "@/schemas/block"
 
-import { getHref } from "@/lib/get-href"
 import { Block as ReactBlock } from "@/components/block"
 
-type Props = BlockSchema & { block?: string }
+type Props = BlockSchema
 
-const { items, pages, articles, events, ...props } = Astro.props
-
-const pageEntries =
-  pages &&
-  (await getEntries(pages)).map((page) => {
-    return {
-      ...page.data,
-      href: getHref(page),
-    }
-  })
-
-const articleEntries =
-  articles &&
-  (await getEntries(articles)).map((article) => {
-    return {
-      ...article.data,
-      href: getHref(article),
-    }
-  })
-
-const eventEntries =
-  events &&
-  (await getEntries(events)).map((event) => {
-    return {
-      ...event.data,
-      href: getHref(event),
-    }
-  })
+const props = await transformBlock(Astro.props)
 ---
 
-<ReactBlock
-  client:load
-  {...props}
-  items={items || pageEntries || articleEntries || eventEntries}
-/>
+<ReactBlock client:load {...props}>
+  <Fragment set:html={Astro.props.content} />
+</ReactBlock>

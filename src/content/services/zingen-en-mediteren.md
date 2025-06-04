@@ -7,40 +7,12 @@ blocks:
   - block: reviews-1
     content: |
       <h2>Wat anderen zeggen over zingen en mediteren</h2>
-    items:
-      - rating: 5
-        title: Deelnemer
-        description: >-
-          “Zingen is van toegevoegde waarde voor meditatie. En bewegen met klank
-          ook”
-      - rating: 5
-        title: Deelnemer
-        description: >-
-          “Het zingen ging als vanzelf van binnen naar buiten. Ik voelde me
-          opgenomen in de harmonie van klanken om me heen. Dat tilt me boven
-          mezelf uit”
-      - rating: 5
-        title: Deelnemer
-        description: >-
-          “Lichaam en geest zijn compagnons in het zingen en daarna ook in het
-          mediteren”
-      - rating: 5
-        title: Deelnemer
-        description: >-
-          “Aangeraakt worden door klank doet iets lijf en geest. Ank en Arman
-          creëren ruimte om vanuit stilte tot resonantie te komen. We werden
-          meegenomen door samen te mediteren, te luisteren en te zingen. Het
-          lijf wordt voelbaar, de geest ontspant. En dat maakt blij!”
-      - rating: 5
-        title: Deelnemer
-        description: >-
-          “In het hier en nu zijn en daar rustig in blijven zitten. Dat is voor
-          mij mediteren. Dat klinkt heel simpel maar zo voelt het niet. Het
-          zitten wordt snel ongemakkelijk en het vraagt veel om je aandacht bij
-          de ademhaling te houden. Hoe anders wordt dat als je geluid mag geven.
-          Adem wordt klank, een klank die je voelt resoneren in je lijf, die
-          zich mengt met andere klanken. Iedereen op zijn eigen plekje, met zijn
-          eigen klank in een gedeelde ruimte. Daarin kan ik aanwezig zijn.”
+    reviews:
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
 seo:
   title: Zingen en mediteren | Meditatie door Zang met Ank Schravendeel
   description: >-
@@ -48,18 +20,19 @@ seo:
     een unieke spirituele ervaring onder begeleiding van Ank Schravendeel en
     Arman Ameri.
 ---
+
 Ik werk samen met Arman Ameri Mahani, een Iraans musicus die zich heeft gewijd aan het leren van Dhrupad (Indiase klassieke muziek). Hij zingt raga’s en mantra’s en speelt op authentieke snaarinstrumenten.
 
-Mediteren maakt open naar binnen: dat maakt ingetogen.   Door meditatie komen  we in verbinding met ons lichaam, het hart opent voor wat we ervaren, we worden bewust van de ervaring. Ontvankelijk zijn, verstillen.
+Mediteren maakt open naar binnen: dat maakt ingetogen. Door meditatie komen we in verbinding met ons lichaam, het hart opent voor wat we ervaren, we worden bewust van de ervaring. Ontvankelijk zijn, verstillen.
 
 Zingen brengt klank naar buiten, resoneert: dat maakt opgetogen.
 
 ### Wat voor ons belangrijk is in zingen en mediteren:
 
-* Klank gaat voorbij woorden en concepten, net als het ervaren van wat je beleeft in de meditatie.
-* Je gebruikt je vaardigheid om te zingen en het overkomt je, ratio en intuïtie komen bij elkaar.
-* Mediteren maakt ingetogen, zingen maakt opgetogen: vreugde geeft concentratie.
-* Expressie geven, je laten horen, geeft verbondenheid.
+- Klank gaat voorbij woorden en concepten, net als het ervaren van wat je beleeft in de meditatie.
+- Je gebruikt je vaardigheid om te zingen en het overkomt je, ratio en intuïtie komen bij elkaar.
+- Mediteren maakt ingetogen, zingen maakt opgetogen: vreugde geeft concentratie.
+- Expressie geven, je laten horen, geeft verbondenheid.
 
 > “a spiritual friend hears the song of your heart
 >

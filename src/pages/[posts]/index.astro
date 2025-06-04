@@ -1,0 +1,28 @@
+---
+import Posts1 from "@/blocks/posts-1"
+import slugs from "@/data/slugs.json"
+import { getCollection } from "astro:content"
+
+import Layout from "@/components/layout.astro"
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: {
+        posts: slugs.posts,
+      },
+    },
+  ]
+}
+
+const posts = (await getCollection("posts")).map((post) => {
+  return {
+    ...post.data,
+    href: `/${slugs.posts}/${post.id}/`,
+  }
+})
+---
+
+<Layout>
+  <Posts1 posts={posts} />
+</Layout>

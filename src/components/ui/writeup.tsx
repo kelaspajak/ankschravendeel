@@ -31,18 +31,16 @@ const writeupVariants = cva(
 function Writeup({
   className,
   size,
-  content,
+  children,
   ...props
 }: React.ComponentProps<"div"> &
   VariantProps<typeof writeupVariants> & {
-    content?: string
+    children?: React.ReactNode
   }) {
   return (
-    <div
-      className={cn(writeupVariants({ size }), className)}
-      dangerouslySetInnerHTML={{ __html: content ?? "" }}
-      {...props}
-    />
+    <div className={cn(writeupVariants({ size }), className)} {...props}>
+      {children}
+    </div>
   )
 }
 

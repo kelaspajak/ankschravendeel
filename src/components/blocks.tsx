@@ -1,4 +1,4 @@
-import type { BlockSchema } from "@/schemas/block"
+import type { BlockProps } from "@/schemas/block"
 
 // Get all blocks as an object
 const blockImports = import.meta.glob("../blocks/**/*.tsx", {
@@ -6,7 +6,7 @@ const blockImports = import.meta.glob("../blocks/**/*.tsx", {
 })
 
 // Render all blocks
-function Blocks({ blocks }: { blocks?: (BlockSchema & { block: string })[] }) {
+function Blocks({ blocks }: { blocks?: (BlockProps & { block: string })[] }) {
   return (
     <>
       {blocks?.map(({ block, ...props }, i) => {

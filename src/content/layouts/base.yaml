@@ -2,26 +2,26 @@ lang: nl
 company: Lorem Ipsum
 header:
   block: header-1
-  text: Ank Schravendeel
+  title: Ank Schravendeel
   menus:
     - text: Home
       href: /
     - text: Coaching
-      href: /coaching/
+      href: /aanbod/coaching/
     - text: Meditatie
       links:
         - text: Meditatie
-          href: /meditatie/
+          href: /aanbod/meditatie/
         - text: Retraite
-          href: /retraite/
+          href: /aanbod/retraite/
         - text: Zingen en mediteren
-          href: /zingen-en-mediteren/
+          href: /aanbod/zingen-en-mediteren/
     - text: Agenda
-      href: /events/
+      href: /agenda/
     - text: Lezingen
       href: /lezingen/
     - text: Blog
-      href: /blogs/
+      href: /blog/
     - text: Over mij
       href: /over-mij/
   buttons:
@@ -29,8 +29,8 @@ header:
       href: /contact/
 footer:
   block: footer-1
-  heading: Ank Schravendeel
-  paragraph: >
+  title: Ank Schravendeel
+  description: >
     Meditatie: zijn met wat er is en dat toelaten.
     Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.
   company: Ank Schravendeel. Fotografie door Nelleke Heinkens. Website door Fulldev.

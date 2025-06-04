@@ -1,47 +1,48 @@
-import { articleSchema } from "@/schemas/article"
-import { blogSchema } from "@/schemas/blog"
-import { eventSchema } from "@/schemas/event"
+import { dataSchema } from "@/schemas/data"
 import { layoutSchema } from "@/schemas/layout"
 import { pageSchema } from "@/schemas/page"
-import { policySchema } from "@/schemas/policy"
 import { defineCollection } from "astro:content"
-import { glob } from "astro/loaders"
+import { file, glob } from "astro/loaders"
 
 export const collections = {
   pages: defineCollection({
     loader: glob({
       pattern: "**/[^_]*.{md,mdx}",
-      base: `./src/content/pages`,
+      base: "src/content/pages",
     }),
     schema: pageSchema,
   }),
-  articles: defineCollection({
+  posts: defineCollection({
     loader: glob({
       pattern: "**/[^_]*.{md,mdx}",
-      base: `./src/content/articles`,
+      base: "src/content/posts",
     }),
-    schema: articleSchema,
-  }),
-  blogs: defineCollection({
-    loader: glob({
-      pattern: "**/[^_]*.{md,mdx}",
-      base: `./src/content/blogs`,
-    }),
-    schema: blogSchema,
+    schema: pageSchema,
   }),
   events: defineCollection({
     loader: glob({
       pattern: "**/[^_]*.{md,mdx}",
-      base: `./src/content/events`,
+      base: "src/content/events",
     }),
-    schema: eventSchema,
+    schema: pageSchema,
+  }),
+  services: defineCollection({
+    loader: glob({
+      pattern: "**/[^_]*.{md,mdx}",
+      base: "src/content/services",
+    }),
+    schema: pageSchema,
   }),
   policies: defineCollection({
     loader: glob({
       pattern: "**/[^_]*.{md,mdx}",
-      base: `./src/content/policies`,
+      base: "src/content/policies",
     }),
-    schema: policySchema,
+    schema: pageSchema,
+  }),
+  reviews: defineCollection({
+    loader: file("src/content/reviews.yml"),
+    schema: dataSchema,
   }),
   layouts: defineCollection({
     loader: glob({

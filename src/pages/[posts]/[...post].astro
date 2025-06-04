@@ -1,0 +1,29 @@
+---
+import Content1 from "@/blocks/content-1"
+import slugs from "@/data/slugs.json"
+import { getCollection, render } from "astro:content"
+
+import Layout from "@/components/layout.astro"
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts")
+  return posts.map((post) => {
+    return {
+      params: {
+        posts: slugs.posts,
+        post: post.id,
+      },
+      props: post,
+    }
+  })
+}
+
+const { Content } = await render(Astro.props)
+const { data } = Astro.props
+---
+
+<Layout {...data}>
+  <Content1 {...data}>
+    <Content />
+  </Content1>
+</Layout>

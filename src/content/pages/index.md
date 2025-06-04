@@ -13,14 +13,9 @@ blocks:
     image:
       src: /images/home.jpeg
       alt: Hero
-  - block: pages-1
+  - block: services-1
     content: <h2>Een overzicht van mijn aanbod</h2>
-    pages:
-      - coaching
-      - meditatie
-      - retraite
-      - zingen-en-mediteren
-  - block: content-2
+  - block: media-1
     content: >
       <h2>Over mij</h2>
 
@@ -38,66 +33,12 @@ blocks:
     image:
       src: /images/over-mij.jpeg
       alt: Ank Schravendeel
-  - block: pages-1
+  - block: posts-1
     content: |
-      <h2>De laatste informatie </h2>
-    items:
-      - title: De geest laten opbloeien
-        href: /blogs/de-geest-laten-opbloeien/
-        description: >-
-          Wonderlijk, hoe die geest kan malen, toch vaak aangejaagd door
-          bezorgdheid. En hoe die geest zich kan ontwikkelen, kan opbloeien.
-        image:
-          src: /images/foto blog opbloeien geest.jpeg
-          alt: De geest laten opbloeien
-      - title: Horen zingen en mediteren bij elkaar?
-        href: /blogs/horen-zingen-en-mediteren-bij-elkaar/
-        description: >-
-          In iedere spirituele traditie wordt gezongen. Zingen opent het hart,
-          het resoneert in het lichaam, het harmoniseert de geest.
-        image:
-          src: /images/horen-zingen-en-mediteren-bij-elkaar.jpeg
-          alt: Horen zingen en mediteren bij elkaar
-      - title: De taal van handen en voeten
-        href: /blogs/de-taal-van-handen-en-voeten/
-        description: >-
-          Er bestaan drie talen in de hele wereld: de taal van stilte, de taal
-          van handen, de taal van woorden.
-        image:
-          src: /images/de-taal-van-handen-en-voeten.jpeg
-          alt: De taal van handen en voeten
+      <h2>De laatste blogs </h2>
   - block: reviews-1
     content: |
-      <h2>Wat anderen zeggen over coaching</h2>
-    items:
-      - title: mevr. H
-        description: >-
-          In een emotionele crisisperiode heb ik het voorrecht gehad gecoacht te
-          worden door Ank. Ik kan met volle overtuiging zeggen dat dat een
-          transformerende ervaring is geweest. Ik voelde me altijd op mijn gemak
-          tijdens onze sessies en kon mijn diepste gevoelens en gedachten delen.
-          Dankzij een niet-oordelende aanwezigheid, een meelevende blik, vanuit
-          een ander perspectief en vooral: door de juiste open vragen te
-          stellen, kwam ik tot dieper inzicht in mezelf.
-        rating: 5
-      - title: Coach
-        description: >-
-          Wat ik bij Ank heel erg apprecieer zijn haar zacht luisterend oor en
-          scherpe kijk. Zij doorziet haarfijn waar de "knobbel" zit, stelt
-          precies de vragen die ertoe doen en nodigt je zo op een heel
-          vriendelijke en aanmoedigende manier uit om de dingen vanuit een
-          andere hoek te bekijken, die verruimend en inzichtelijk werkt. Ik voel
-          veel dankbaarheid voor alle gesprekken die we hadden.
-        rating: 5
-      - title: Beleidsmedewerker zorg
-        description: >-
-          Ik heb Ank ervaren als een betrokken coach. Ank liet mij eigenaar zijn
-          en blijven van mijn eigen vraag. Ze hielp me om mijn eigen antwoorden
-          te vinden. Ze maakte daarbij gebruik van verschillende technieken die
-          ze op de juiste momenten wist in te zetten, zoals opstellingen en
-          voice dialogue. Na een aantal sessies kon ik keuzes maken waarmee ik
-          weer verder kon op mijn levenspad.
-        rating: 5
+      <h2>Wat anderen zeggen</h2>
   - block: cta-1
     content: |
       <h2>Neem gerust contact met mij op</h2>
