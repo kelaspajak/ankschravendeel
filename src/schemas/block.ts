@@ -1,5 +1,5 @@
 import type React from "react"
-import slugs from "@/data/slugs.json"
+import { slugs } from "@/data/config.json"
 import { imageSchema } from "@/schemas/image"
 import { linkSchema } from "@/schemas/link"
 import { menuSchema } from "@/schemas/menu"

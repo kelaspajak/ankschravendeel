@@ -1,13 +1,14 @@
 ---
+import { slugs } from "@/data/config.json"
+import settings from "@/data/settings.json"
 import type { LayoutSchema } from "@/schemas/layout"
 import { Font } from "astro:assets"
-import { getCollection, getEntry } from "astro:content"
+import { getCollection } from "astro:content"
 
 import "@/styles/globals.css"
 
 import { SEO } from "astro-seo"
 
-import { getHref } from "@/lib/get-href"
 import Block from "@/components/block.astro"
 
 type Props = LayoutSchema
@@ -15,14 +16,11 @@ type Props = LayoutSchema
 const { lang, title, description, image, company, head, body, css } =
   Astro.props
 
-// Get the base layout, including the banner, header, footer etc.
-const layout = await getEntry("layouts", "base")
-
 // Get the policies from the policies collection and map them to the href and text
 const policies = (await getCollection("policies")).map((policy) => {
   return {
     text: policy.data.title,
-    href: getHref(policy),
+    href: `/${slugs.policies}/${policy.id}`,
   }
 })
 ---
@@ -60,12 +58,12 @@ const policies = (await getCollection("policies")).map((policy) => {
     <Fragment set:html={head} />
   </head>
   <body>
-    <Block {...layout?.data.banner} />
-    <Block {...layout?.data.header} />
+    <Block {...settings.banner} />
+    <Block {...settings.header} />
     <main>
       <slot />
     </main>
-    <Block {...layout?.data.footer} policies={policies} />
+    <Block {...settings.footer} policies={policies} />
     <style set:html={css}></style>
     <Fragment set:html={body} />
   </body>
