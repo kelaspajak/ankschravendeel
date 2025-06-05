@@ -27,5 +27,5 @@ const sortedPosts = [...transformedPosts].sort((a, b) => {
 ---
 
 <Layout>
-  <Posts1 posts={sortedPosts} />
+  <Posts1 client:load posts={sortedPosts} />
 </Layout>

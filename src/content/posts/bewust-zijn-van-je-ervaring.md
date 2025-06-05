@@ -1,7 +1,7 @@
 ---
 tags:
   - Lezingen
-  - Meditatie in turbulente tijden [4/4]
+  - Meditatie in turbulente tijden
 title: Bewust zijn van je ervaring
 description: >
   De derde Indriya (spirituele kracht) is opmerkzaamheid. Wat ervaar je in lichaam en geest?

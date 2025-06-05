@@ -1,7 +1,7 @@
 ---
 tags:
   - Lezingen
-  - Meditatie in turbulente tijden [3/4]
+  - Meditatie in turbulente tijden
 title: Vertrouwen
 description: >-
   Vertrouwen is de eerste van de 5 Indriya. De Indriya zijn kwaliteiten van je geest, die zich ontwikkelen door opmerkzaam te zijn. Bonus!

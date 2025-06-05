@@ -1,7 +1,7 @@
 ---
 tags:
   - Lezingen
-  - Meditatie in turbulente tijden [2/4]
+  - Meditatie in turbulente tijden
 title: Spreken en zwijgen
 description: >-
   Hoe lever jij een bijdrage aan een gesprek? Bijvoorbeeld over een moeilijk onderwerp als klimaatverandering…
