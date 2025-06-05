@@ -6,6 +6,8 @@ import { reference, z } from "astro:content"
 
 export const pageSchema = z
   .object({
+    href: z.string(),
+    tags: z.string().array(),
     title: z.string(),
     description: z.string(),
     tagline: z.string(),

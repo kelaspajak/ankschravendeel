@@ -47,7 +47,7 @@ function TileHeader({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="tile-header"
-      className={cn("first:mt-6", className)}
+      className={cn("flex flex-col gap-2 first:mt-6", className)}
       {...props}
     />
   )
