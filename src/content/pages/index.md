@@ -37,7 +37,7 @@ blocks:
     image:
       src: /images/over-mij.jpeg
       alt: Ank Schravendeel
-  - block: posts-1
+  - block: articles-1
     content: |
       <h2>De laatste blogs </h2>
   - block: reviews-1

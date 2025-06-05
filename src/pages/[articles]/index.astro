@@ -1,5 +1,5 @@
 ---
-import Posts1 from "@/blocks/posts-1"
+import Articles1 from "@/blocks/articles-1"
 import { slugs } from "@/data/config.json"
 import { getCollection } from "astro:content"
 
@@ -9,20 +9,20 @@ export async function getStaticPaths() {
   return [
     {
       params: {
-        posts: slugs.posts,
+        articles: slugs.articles,
       },
     },
   ]
 }
 
-const posts = (await getCollection("posts")).map((post) => {
+const articles = (await getCollection("articles")).map((article) => {
   return {
-    ...post.data,
-    href: `/${slugs.posts}/${post.id}/`,
+    ...article.data,
+    href: `/${slugs.articles}/${article.id}/`,
   }
 })
 ---
 
 <Layout>
-  <Posts1 posts={posts} />
+  <Articles1 articles={articles} />
 </Layout>

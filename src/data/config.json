@@ -1,6 +1,7 @@
 {
   "slugs": {
-    "posts": "blog",
+    "posts": "lezingen",
+    "articles": "blog",
     "services": "aanbod",
     "events": "agenda",
     "policies": "beleid",

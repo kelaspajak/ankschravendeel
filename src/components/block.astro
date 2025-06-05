@@ -7,12 +7,18 @@ import { Block as ReactBlock } from "@/components/block"
 
 type Props = BlockSchema
 
-const { posts, services, events, reviews, person, ...props } = Astro.props
+const { posts, articles, services, events, reviews, person, ...props } =
+  Astro.props
 
 const postsEntries = posts
   ? await getEntries(posts)
   : await getCollection("posts")
 const postsTransformed = postsEntries && transformEntries(postsEntries)
+
+const articlesEntries = articles
+  ? await getEntries(articles)
+  : await getCollection("articles")
+const articlesTransformed = articlesEntries && transformEntries(articlesEntries)
 
 const servicesEntries = services
   ? await getEntries(services)
@@ -31,13 +37,12 @@ const reviewsTransformed = reviewsEntries && transformEntries(reviewsEntries)
 
 const personEntry = person && (await getEntry(person))
 const personTransformed = personEntry && transformEntry(personEntry)
-
-console.log({ person, personEntry, personTransformed })
 ---
 
 <ReactBlock
   client:load
   posts={postsTransformed}
+  articles={articlesTransformed}
   services={servicesTransformed}
   events={eventsTransformed}
   reviews={reviewsTransformed}

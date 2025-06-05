@@ -44,6 +44,7 @@ export const blockSchema = itemSchema
     items: itemSchema.array(),
     // References
     posts: reference("posts").array(),
+    articles: reference("articles").array(),
     services: reference("services").array(),
     events: reference("events").array(),
     reviews: reference("reviews").array(),
@@ -55,10 +56,18 @@ export type BlockSchema = z.infer<typeof blockSchema>
 
 export type BlockProps = Omit<
   BlockSchema,
-  "block" | "content" | "posts" | "services" | "events" | "reviews" | "person"
+  | "block"
+  | "content"
+  | "posts"
+  | "articles"
+  | "services"
+  | "events"
+  | "reviews"
+  | "person"
 > & {
   children?: React.ReactNode
   posts?: ItemProps[]
+  articles?: ItemProps[]
   services?: ItemProps[]
   events?: ItemProps[]
   reviews?: ItemProps[]

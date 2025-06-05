@@ -16,9 +16,9 @@ import {
 } from "@/components/ui/tile"
 import { Writeup } from "@/components/ui/writeup"
 
-export interface Posts1Props {
+export interface Articles1Props {
   children?: React.ReactNode
-  posts?: {
+  articles?: {
     href?: string
     title?: string
     description?: string
@@ -30,7 +30,7 @@ export interface Posts1Props {
   }[]
 }
 
-export default function ({ children, posts }: Posts1Props) {
+export default function ({ children, articles }: Articles1Props) {
   return (
     <section className="w-full py-16">
       <div className="mx-auto flex max-w-screen-xl flex-col px-4 lg:px-8">
@@ -40,7 +40,7 @@ export default function ({ children, posts }: Posts1Props) {
           </Writeup>
         )}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {posts?.map(({ href, title, description, image, published }) => (
+          {articles?.map(({ href, title, description, image, published }) => (
             <Tile key={href} href={href} panel={false} className="gap-2">
               <TileImage className="aspect-4/3 object-cover" {...image} />
               <TileHeader className="mt-2">

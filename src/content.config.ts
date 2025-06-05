@@ -19,6 +19,13 @@ export const collections = {
     }),
     schema: pageSchema,
   }),
+  articles: defineCollection({
+    loader: glob({
+      pattern: "**/[^_]*.{md,mdx}",
+      base: "src/content/articles",
+    }),
+    schema: pageSchema,
+  }),
   events: defineCollection({
     loader: glob({
       pattern: "**/[^_]*.{md,mdx}",
