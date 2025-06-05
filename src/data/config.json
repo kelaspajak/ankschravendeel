@@ -1,85 +1,10 @@
 {
-  "blocks": {
-    "banner": {
-      "variant": 0
-    },
-    "code": {
-      "variant": 0
-    },
-    "collection": {
-      "variant": 0
-    },
-    "collections": {
-      "variant": 0
-    },
-    "contact": {
-      "variant": 1
-    },
-    "content": {
-      "variant": 1
-    },
-    "cta": {
-      "variant": 1,
-      "align": "center"
-    },
-    "faqs": {
-      "variant": 0
-    },
-    "features": {
-      "variant": 1
-    },
-    "footer": {
-      "variant": 1
-    },
-    "header": {
-      "variant": 1,
-      "search": false
-    },
-    "hero": {
-      "variant": 1
-    },
-    "location": {
-      "variant": 0
-    },
-    "locations": {
-      "variant": 0
-    },
-    "event": {
-      "variant": 1
-    },
-    "events": {
-      "variant": 1
-    },
-    "media": {
-      "variant": 2,
-      "align": "center"
-    },
-    "pages": {
-      "variant": 1
-    },
-    "person": {
-      "variant": 0
-    },
-    "persons": {
-      "variant": 0
-    },
-    "post": {
-      "variant": 1
-    },
-    "posts": {
-      "variant": 1
-    },
-    "pricing": {
-      "variant": 0
-    },
-    "product": {
-      "variant": 0
-    },
-    "products": {
-      "variant": 0
-    },
-    "reviews": {
-      "variant": 1
-    }
+  "slugs": {
+    "posts": "lezingen",
+    "articles": "blog",
+    "services": "aanbod",
+    "events": "agenda",
+    "policies": "beleid",
+    "persons": "personen"
   }
 }

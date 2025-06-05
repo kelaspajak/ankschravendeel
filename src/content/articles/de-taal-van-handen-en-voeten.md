@@ -1,8 +1,11 @@
 ---
-blog: index
 title: "De taal van handen en voeten"
+description: >-
+  Er bestaan drie talen in de hele wereld: de taal van stilte, de taal
+  van handen, de taal van woorden.
 image:
   src: /images/de-taal-van-handen-en-voeten.jpeg
+published: 2025-06-04T12:00:00Z
 ---
 
 Een wijze sjamaan zei: "Er bestaan drie talen in de hele wereld: de taal van stilte, de taal van handen, de taal van woorden".

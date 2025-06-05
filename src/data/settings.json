@@ -1,0 +1,127 @@
+{
+  "lang": "nl",
+  "company": "Lorem Ipsum",
+  "banner": {
+    "text": "De gloednieuwe website staat online 🎉",
+    "href": "/"
+  },
+  "header": {
+    "block": "header-1",
+    "logo": {
+      "text": "Ank Schravendeel"
+    },
+    "menus": [
+      {
+        "text": "Coaching",
+        "href": "/aanbod/coaching/"
+      },
+      {
+        "text": "Meditatie",
+        "links": [
+          {
+            "text": "Meditatie",
+            "href": "/aanbod/meditatie/"
+          },
+          {
+            "text": "Retraite",
+            "href": "/aanbod/retraite/"
+          },
+          {
+            "text": "Zingen en mediteren",
+            "href": "/aanbod/zingen-en-mediteren/"
+          }
+        ]
+      },
+      {
+        "text": "Agenda",
+        "href": "/agenda/"
+      },
+      {
+        "text": "Lezingen",
+        "href": "/lezingen/"
+      },
+      {
+        "text": "Blog",
+        "href": "/blog/"
+      },
+      {
+        "text": "Over mij",
+        "href": "/over-mij/"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Neem contact op",
+        "href": "/contact/"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Ank Schravendeel",
+    "description": "Meditatie: zijn met wat er is en dat toelaten. Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.\n",
+    "channels": {
+      "email": "welkom@ankschravendeel.nl",
+      "phone": "316 52624506",
+      "address": "Star Numanstraat 65, Groningen"
+    },
+    "menus": [
+      {
+        "text": "Aanbod",
+        "href": "/aanbod/",
+        "links": [
+          {
+            "text": "Coaching",
+            "href": "/aanbod/coaching/"
+          },
+          {
+            "text": "Meditatie",
+            "href": "/aanbod/meditatie/"
+          },
+          {
+            "text": "Retraite",
+            "href": "/aanbod/retraite/"
+          },
+          {
+            "text": "Zingen en mediteren",
+            "href": "/aanbod/zingen-en-mediteren/"
+          }
+        ]
+      },
+      {
+        "text": "Overig",
+        "links": [
+          {
+            "text": "Agenda",
+            "href": "/agenda/"
+          },
+          {
+            "text": "Lezingen",
+            "href": "/lezingen/"
+          },
+          {
+            "text": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "text": "Over mij",
+            "href": "/over-mij/"
+          }
+        ]
+      }
+    ],
+    "copyright": "Ank Schravendeel",
+    "links": [
+      {
+        "text": "Website door Fulldev",
+        "href": "https://full.dev"
+      },
+      {
+        "text": "Fotografie door Nelleke Heinkens",
+        "href": "https://nellekeheinkens.com"
+      }
+    ]
+  },
+  "head": "",
+  "body": "",
+  "css": ""
+}

@@ -1,44 +1,53 @@
 ---
-import type { BlockSchema } from "@/schemas/block"
-import { getEntries } from "astro:content"
+import { type BlockSchema } from "@/schemas/block"
+import { getCollection, getEntries, getEntry } from "astro:content"
 
-import { getHref } from "@/lib/get-href"
+import { transformEntries, transformEntry } from "@/lib/transform"
 import { Block as ReactBlock } from "@/components/block"
 
-type Props = BlockSchema & { block?: string }
+type Props = BlockSchema
 
-const { items, pages, articles, events, ...props } = Astro.props
+const { posts, articles, services, events, reviews, person, ...props } =
+  Astro.props
 
-const pageEntries =
-  pages &&
-  (await getEntries(pages)).map((page) => {
-    return {
-      ...page.data,
-      href: getHref(page),
-    }
-  })
+const postsEntries = posts
+  ? await getEntries(posts)
+  : await getCollection("posts")
+const postsTransformed = postsEntries && transformEntries(postsEntries)
 
-const articleEntries =
-  articles &&
-  (await getEntries(articles)).map((article) => {
-    return {
-      ...article.data,
-      href: getHref(article),
-    }
-  })
+const articlesEntries = articles
+  ? await getEntries(articles)
+  : await getCollection("articles")
+const articlesTransformed = articlesEntries && transformEntries(articlesEntries)
 
-const eventEntries =
-  events &&
-  (await getEntries(events)).map((event) => {
-    return {
-      ...event.data,
-      href: getHref(event),
-    }
-  })
+const servicesEntries = services
+  ? await getEntries(services)
+  : await getCollection("services")
+const servicesTransformed = servicesEntries && transformEntries(servicesEntries)
+
+const eventsEntries = events
+  ? await getEntries(events)
+  : await getCollection("events")
+const eventsTransformed = eventsEntries && transformEntries(eventsEntries)
+
+const reviewsEntries = reviews
+  ? await getEntries(reviews)
+  : await getCollection("reviews")
+const reviewsTransformed = reviewsEntries && transformEntries(reviewsEntries)
+
+const personEntry = person && (await getEntry(person))
+const personTransformed = personEntry && transformEntry(personEntry)
 ---
 
 <ReactBlock
   client:load
+  posts={postsTransformed}
+  articles={articlesTransformed}
+  services={servicesTransformed}
+  events={eventsTransformed}
+  reviews={reviewsTransformed}
+  person={personTransformed}
   {...props}
-  items={items || pageEntries || articleEntries || eventEntries}
-/>
+>
+  <Fragment set:html={Astro.props.content} />
+</ReactBlock>

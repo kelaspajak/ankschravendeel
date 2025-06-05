@@ -1,23 +1,26 @@
 import { blockSchema } from "@/schemas/block"
 import { imageSchema } from "@/schemas/image"
+import { linkSchema } from "@/schemas/link"
 import { seoSchema } from "@/schemas/seo"
-import { reference } from "astro:content"
-import { z } from "zod"
+import { reference, z } from "astro:content"
 
 export const pageSchema = z
   .object({
+    href: z.string(),
+    tags: z.string().array(),
     title: z.string(),
     description: z.string(),
+    tagline: z.string(),
+    when: z.string(),
+    where: z.string(),
     image: imageSchema,
-    blocks: blockSchema
-      .extend({
-        // Choose which block to render
-        block: z.string(),
-        // Reference to other collections. Get transformed to items
-        pages: reference("pages").array().optional(),
-        articles: reference("articles").array().optional(),
-      })
-      .array(),
+    avatar: z.string(),
+    form: z.any(),
+    socials: z.string().array(),
+    buttons: linkSchema.array(),
+    published: z.date(),
+    blocks: blockSchema.array(),
+    // person: reference("persons"),
     seo: seoSchema,
   })
   .partial()

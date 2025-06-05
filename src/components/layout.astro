@@ -1,0 +1,63 @@
+---
+import { slugs } from "@/data/config.json"
+import settings from "@/data/settings.json"
+import type { LayoutSchema } from "@/schemas/layout"
+import { Font } from "astro:assets"
+import { getCollection } from "astro:content"
+
+import "@/styles/globals.css"
+
+import Banner1 from "@/blocks/banner-1"
+import Footer1 from "@/blocks/footer-1"
+import Header1 from "@/blocks/header-1"
+import { SEO } from "astro-seo"
+
+type Props = LayoutSchema
+
+const { lang, title, description, image, company, head, body, css } =
+  Astro.props
+---
+
+<!doctype html>
+<html
+  class="layout text-foreground bg-background h-full w-full font-sans text-base scheme-light dark:scheme-dark"
+  lang={lang}
+>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO
+      charset="UTF-8"
+      title={title || undefined}
+      description={description || undefined}
+      openGraph={{
+        basic: {
+          title: title || "",
+          image: Astro.url.origin + image?.src,
+          type: "website",
+          url: Astro.url.href,
+        },
+        image: {
+          url: Astro.url.origin + image?.src,
+          alt: image?.alt || title || company || undefined,
+        },
+        optional: {
+          description: description || undefined,
+          siteName: company || undefined,
+        },
+      }}
+    />
+    <Font cssVariable="--font-sans" preload />
+    <Fragment set:html={head} />
+  </head>
+  <body>
+    {settings.banner && <Banner1 {...settings.banner} />}
+    {settings.header && <Header1 client:load {...settings.header} />}
+    <main>
+      <slot />
+    </main>
+    {settings.footer && <Footer1 {...settings.footer} />}
+    <style set:html={css}></style>
+    <Fragment set:html={body} />
+  </body>
+</html>

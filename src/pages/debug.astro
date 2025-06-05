@@ -1,5 +1,7 @@
 ---
-import { Block } from "@/components/block-editable"
+import { getEntry } from "astro:content"
+
+const post = await getEntry("posts", "de-geest-laten-opbloeien")
 ---
 
-<Block client:load block="hero-1" />
+<pre>{JSON.stringify(post, null, 2)}</pre>

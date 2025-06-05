@@ -1,24 +1,24 @@
 ---
-import Page from "@/layouts/page.astro"
-import { getCollection, render } from "astro:content"
+import { getCollection } from "astro:content"
 
-import { getHref } from "@/lib/get-href"
+import Block from "@/components/block.astro"
+import Layout from "@/components/layout.astro"
 
 export async function getStaticPaths() {
-  const entries = await getCollection("pages")
-  return entries.map((entry) => {
+  const pages = await getCollection("pages")
+  return pages.map((page) => {
     return {
       params: {
-        page: getHref(entry) === "/" ? undefined : entry.id,
+        page: page.id === "index" ? undefined : page.id,
       },
-      props: entry,
+      props: page,
     }
   })
 }
 
-const { Content } = await render(Astro.props)
+const { blocks, ...data } = Astro.props.data
 ---
 
-<Page {...Astro.props.data}>
-  <Content />
-</Page>
+<Layout {...data}>
+  {blocks?.map((block) => <Block {...block} />)}
+</Layout>

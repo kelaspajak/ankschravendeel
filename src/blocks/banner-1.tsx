@@ -1,24 +1,29 @@
-import type { BlockSchema } from "@/schemas/block"
+import type { BlockProps } from "@/schemas/block"
 
-import { cn } from "@/lib/utils"
+export interface Banner1Props extends BlockProps {
+  text?: string
+  button?: {
+    text?: string
+    href?: string
+  }
+}
 
-export default function ({ list }: BlockSchema) {
+export default function ({ text, href }: Banner1Props) {
   return (
-    <header className="banner bg-primary text-primary-foreground relative z-10 flex h-8 items-center text-center text-sm leading-3.5 font-medium">
-      <div className="mx-auto flex w-full max-w-screen-xl items-center justify-evenly px-4 text-xs lg:px-8">
-        {list?.map((text, i) => (
-          <span
-            key={text}
-            className={cn({
-              "max-md:hidden": i > 0,
-              "max-lg:hidden": i > 1,
-              "max-xl:hidden": i > 2,
-              hidden: i > 3,
-            })}
+    <header className="bg-primary relative z-10 flex h-8 items-center">
+      <div className="text-primary-foreground mx-auto flex w-full max-w-screen-xl items-center justify-center px-4 lg:px-8">
+        {href ? (
+          <a
+            href={href}
+            className="text-primary-foreground text-center text-sm font-medium"
           >
+            <span>{text}</span>
+          </a>
+        ) : (
+          <p className="text-primary-foreground text-center text-sm font-medium">
             {text}
-          </span>
-        ))}
+          </p>
+        )}
       </div>
     </header>
   )
