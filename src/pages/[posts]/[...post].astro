@@ -1,7 +1,8 @@
 ---
 import Content1 from "@/blocks/content-1"
+import Post1 from "@/blocks/post-1"
 import { slugs } from "@/data/config.json"
-import { getCollection, render } from "astro:content"
+import { getCollection, getEntry, render } from "astro:content"
 
 import Layout from "@/components/layout.astro"
 
@@ -20,10 +21,12 @@ export async function getStaticPaths() {
 
 const { Content } = await render(Astro.props)
 const { data } = Astro.props
+
+const person = await getEntry(data.person)
 ---
 
 <Layout {...data}>
-  <Content1 {...data}>
+  <Post1 {...data} person={person}>
     <Content />
-  </Content1>
+  </Post1>
 </Layout>

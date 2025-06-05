@@ -1,13 +1,48 @@
 ---
-import { transformBlock, type BlockSchema } from "@/schemas/block"
+import { type BlockSchema } from "@/schemas/block"
+import { getCollection, getEntries, getEntry } from "astro:content"
 
+import { transformEntries, transformEntry } from "@/lib/transform"
 import { Block as ReactBlock } from "@/components/block"
 
 type Props = BlockSchema
 
-const props = await transformBlock(Astro.props)
+const { posts, services, events, reviews, person, ...props } = Astro.props
+
+const postsEntries = posts
+  ? await getEntries(posts)
+  : await getCollection("posts")
+const postsTransformed = postsEntries && transformEntries(postsEntries)
+
+const servicesEntries = services
+  ? await getEntries(services)
+  : await getCollection("services")
+const servicesTransformed = servicesEntries && transformEntries(servicesEntries)
+
+const eventsEntries = events
+  ? await getEntries(events)
+  : await getCollection("events")
+const eventsTransformed = eventsEntries && transformEntries(eventsEntries)
+
+const reviewsEntries = reviews
+  ? await getEntries(reviews)
+  : await getCollection("reviews")
+const reviewsTransformed = reviewsEntries && transformEntries(reviewsEntries)
+
+const personEntry = person && (await getEntry(person))
+const personTransformed = personEntry && transformEntry(personEntry)
+
+console.log({ person, personEntry, personTransformed })
 ---
 
-<ReactBlock client:load {...props}>
+<ReactBlock
+  client:load
+  posts={postsTransformed}
+  services={servicesTransformed}
+  events={eventsTransformed}
+  reviews={reviewsTransformed}
+  person={personTransformed}
+  {...props}
+>
   <Fragment set:html={Astro.props.content} />
 </ReactBlock>

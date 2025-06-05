@@ -7,6 +7,8 @@ import { getCollection } from "astro:content"
 
 import "@/styles/globals.css"
 
+import Banner1 from "@/blocks/banner-1"
+import Footer1 from "@/blocks/footer-1"
 import { SEO } from "astro-seo"
 
 import Block from "@/components/block.astro"
@@ -58,12 +60,12 @@ const policies = (await getCollection("policies")).map((policy) => {
     <Fragment set:html={head} />
   </head>
   <body>
-    <Block {...settings.banner} />
-    <Block {...settings.header} />
+    {settings.banner && <Banner1 {...settings.banner} />}
+    {settings.header && <Block {...settings.header} />}
     <main>
       <slot />
     </main>
-    <Block {...settings.footer} policies={policies} />
+    {settings.footer && <Footer1 {...settings.footer} policies={policies} />}
     <style set:html={css}></style>
     <Fragment set:html={body} />
   </body>

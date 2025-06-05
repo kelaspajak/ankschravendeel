@@ -3,6 +3,7 @@
     "posts": "blog",
     "services": "aanbod",
     "events": "agenda",
-    "policies": "beleid"
+    "policies": "beleid",
+    "persons": "personen"
   }
 }

@@ -15,3 +15,5 @@ export const dataSchema = z
   .strict()
 
 export type DataSchema = z.infer<typeof dataSchema>
+
+export type DataProps = DataSchema

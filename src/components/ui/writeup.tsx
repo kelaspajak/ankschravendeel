@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils"
 const writeupVariants = cva(
   [
     "text-pretty max-w-2xl text-left  text-foreground !leading-[1.75]",
-    "[&_*]:not-first:mt-4",
-    "[&_:is(h1,h2,h3,h4,h5,h6)]:scroll-mt-20 [&_:is(h1,h2,h3,h4,h5,h6)]:font-semibold [&_:is(h1,h2,h3,h4,h5,h6)]:tracking-tight",
+    "[&_*]:not-first:mt-4 [&_*]:text-foreground/80",
+    "[&_:is(h1,h2,h3,h4,h5,h6)]:scroll-mt-20 [&_:is(h1,h2,h3,h4,h5,h6)]:font-semibold [&_:is(h1,h2,h3,h4,h5,h6)]:tracking-tight [&_:is(h1,h2,h3,h4,h5,h6)]:text-foreground",
   ],
   {
     variants: {
@@ -21,7 +21,7 @@ const writeupVariants = cva(
         "3xl": "text-base [&_:is(h1,h2,h3,h4,h5,h6)]:text-3xl",
         "4xl": "text-base [&_:is(h1,h2,h3,h4,h5,h6)]:text-4xl",
         "5xl":
-          "text-lg md:text-xl [&_:is(h1,h2,h3,h4,h5,h6)]:text-4xl lg:[&_:is(h1,h2,h3,h4,h5,h6)]:text-5xl",
+          "text-base md:text-lg [&_:is(h1,h2,h3,h4,h5,h6)]:text-4xl lg:[&_:is(h1,h2,h3,h4,h5,h6)]:text-5xl",
         "6xl":
           "text-lg md:text-xl [&_:is(h1,h2,h3,h4,h5,h6)]:text-5xl lg:[&_:is(h1,h2,h3,h4,h5,h6)]:text-6xl",
         "7xl":

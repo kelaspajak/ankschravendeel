@@ -5,6 +5,8 @@ description: >-
   het resoneert in het lichaam, het harmoniseert de geest.
 image:
   src: /images/horen-zingen-en-mediteren-bij-elkaar.jpeg
+published: 2025-06-04T12:00:00Z
+person: ank-schravendeel
 ---
 
 In iedere spirituele traditie wordt gezongen. In de traditie van Theravada Boeddhisme worden de leringen van de Boedha gechant door de monniken en nonnen. Dat is een onderdeel van hun gezamenlijke beoefening. Zo wordt een gezamenlijke expressie gegeven aan de Dhamma en worden de teksten onthouden.

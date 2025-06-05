@@ -14,10 +14,14 @@ blocks:
       src: /images/home.jpeg
       alt: Hero
   - block: services-1
-    content: <h2>Een overzicht van mijn aanbod</h2>
+    content: |
+      <h2>Een overzicht van mijn aanbod</h2>
+      <p>
+        Verschillende diensten op het gebied van meditatie en coaching
+      </p>
   - block: media-1
     content: >
-      <h2>Over mij</h2>
+      <h2>Over Ank Schravendeel</h2>
 
       <p>Ik mediteer sinds 1988, vipassana meditatie. Zijn met wat er is,
       toelaten, ontdekken. Dat is de basis om als meditatie begeleider en als

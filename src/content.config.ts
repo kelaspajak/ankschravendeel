@@ -40,6 +40,13 @@ export const collections = {
     }),
     schema: pageSchema,
   }),
+  persons: defineCollection({
+    loader: glob({
+      pattern: "**/[^_]*.{md,mdx}",
+      base: "src/content/persons",
+    }),
+    schema: pageSchema,
+  }),
   reviews: defineCollection({
     loader: file("src/content/reviews.yml"),
     schema: dataSchema,
