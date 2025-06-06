@@ -1,12 +1,6 @@
 ---
 title: De geest laten opbloeien
-description: >-
-  Wonderlijk, hoe die geest kan malen, toch vaak aangejaagd door
-  bezorgdheid. En hoe die geest zich kan ontwikkelen, kan opbloeien.
-image:
-  src: /images/foto blog opbloeien geest.jpeg
-  alt: De geest laten opbloeien
-published: 2025-06-04T12:00:00Z
+article: test
 ---
 
 Als ik ’s morgens wakker word, hoor ik mijn denkmotor aanslaan. Gedachten die op zaken vooruit lopen, wat er gepland staat voor die dag komt alvast langs. Overzicht maken, voorbereidend denken. Ergens naar uit kijken of tegen op zien, onbewuste spanning vertaalt zich in verdwalen in verhalen.

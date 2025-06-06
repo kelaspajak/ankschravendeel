@@ -1,7 +1,22 @@
 ---
+import {
+  articleSchema,
+  findReferenceRecursively,
+  populateEntryRecursively,
+} from "@/schemas/article"
 import { getEntry } from "astro:content"
 
-const post = await getEntry("posts", "de-geest-laten-opbloeien")
+const post = await getEntry("articles", "test")
+const populatedPost = post && (await populateEntryRecursively(post))
+// console.log(populatedPost)
+
+const reference = findReferenceRecursively(post?.data)
+
+console.log("ref", reference)
 ---
 
-<pre>{JSON.stringify(post, null, 2)}</pre>
+<html>
+  <body>
+    <pre>{JSON.stringify(populatedPost?.data, null, 2)}</pre>
+  </body>
+</html>

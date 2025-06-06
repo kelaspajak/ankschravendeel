@@ -1,27 +1,25 @@
 import { blockSchema } from "@/schemas/block"
-import { imageSchema } from "@/schemas/image"
-import { linkSchema } from "@/schemas/link"
-import { seoSchema } from "@/schemas/seo"
-import { reference, z } from "astro:content"
+import { getEntry, reference, z } from "astro:content"
+
+type ItemProps = {}
+
+async function transformReference(value: any) {
+  const entry = (await getEntry(value)) as any
+  if (!entry) return
+  const data = entry?.data as any
+  return data
+}
 
 export const pageSchema = z
   .object({
-    href: z.string(),
-    tags: z.string().array(),
     title: z.string(),
-    description: z.string(),
-    tagline: z.string(),
-    when: z.string(),
-    where: z.string(),
-    image: imageSchema,
-    avatar: z.string(),
-    form: z.any(),
-    socials: z.string().array(),
-    buttons: linkSchema.array(),
-    published: z.date(),
+    article: reference("articles").transform(transformReference),
+    articles: reference("articles").array(),
+    service: reference("services").transform(transformReference),
+    services: reference("services").array(),
+    review: reference("reviews").transform(transformReference),
+    reviews: reference("reviews").array(),
     blocks: blockSchema.array(),
-    // person: reference("persons"),
-    seo: seoSchema,
   })
   .partial()
   .strict()
