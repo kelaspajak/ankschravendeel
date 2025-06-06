@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content"
 
+import { transformReferences } from "@/lib/transform-references"
 import Block from "@/components/block.astro"
 import Layout from "@/components/layout.astro"
 
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
   })
 }
 
-const { blocks, ...data } = Astro.props.data
+const { blocks, ...data } = await transformReferences(Astro.props.data)
 ---
 
 <Layout {...data}>

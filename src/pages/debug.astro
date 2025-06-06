@@ -1,18 +1,13 @@
 ---
-import {
-  articleSchema,
-  populateEntryRecursively,
-  populateObject,
-} from "@/schemas/article"
 import { getEntry } from "astro:content"
 
-const post = await getEntry("articles", "test")
-// const populatedPost = post && (await populateEntryRecursively(post))
+import { transformReferences } from "@/lib/transform-references"
+
+const article = await getEntry("articles", "test")
+// const populatedPost = article && (await populateEntryRecursively(article))
 // console.log(populatedPost)
 
-const obj = await populateObject(post?.data)
-
-console.log("ref", obj)
+const obj = article && (await transformReferences(article, 3))
 ---
 
 <html>
