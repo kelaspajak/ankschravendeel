@@ -1,9 +1,17 @@
-import { getEntry, reference, z, type CollectionEntry } from "astro:content"
+import {
+  getEntry,
+  reference,
+  z,
+  type CollectionEntry,
+  type CollectionKey,
+  type ReferenceDataEntry,
+} from "astro:content"
 
 export const articleSchema = z
   .object({
     title: z.string(),
     article: reference("articles"),
+    poep: reference("articles"),
     blocks: z
       .object({
         title: z.string(),
@@ -11,6 +19,11 @@ export const articleSchema = z
       })
       .partial()
       .array(),
+    nested: z.object({
+      deep: z.object({
+        article: reference("articles"),
+      }),
+    }),
   })
   .partial()
   .strict()
@@ -46,55 +59,36 @@ export async function populateEntryRecursively(
   return populateEntryRecursively(newArticle, depth + 1)
 }
 
-/**
- * Recursively searches through a value and returns the first object
- * that contains both a 'collection' key and an 'id' key.
- * Returns undefined if no such object is found.
- */
-/**
- * Recursively searches through a value and returns an array of paths
- * to all objects that contain both a 'collection' key and an 'id' key.
- * Each path is an array of keys/indices leading to the reference.
- */
-export function findReferenceRecursively(
-  value: unknown,
-  currentPath: (string | number)[] = []
-): Array<{
-  path: (string | number)[]
-  reference: { collection: unknown; id: unknown }
-}> {
-  const results: Array<{
-    path: (string | number)[]
-    reference: { collection: unknown; id: unknown }
-  }> = []
-
+// Find and replace all references in any object
+export async function populateObject(value: unknown): Promise<unknown> {
+  // base case: primitive value
   if (value === null || typeof value !== "object") {
-    return results
+    return value
   }
 
+  // reference object: replace with entry data
   if (
+    typeof value === "object" &&
+    value !== null &&
     Object.prototype.hasOwnProperty.call(value, "collection") &&
-    Object.prototype.hasOwnProperty.call(value, "id")
+    Object.prototype.hasOwnProperty.call(value, "id") &&
+    Object.keys(value).length === 2
   ) {
-    results.push({
-      path: currentPath,
-      reference: value as { collection: unknown; id: unknown },
-    })
-    // Continue searching in case there are nested references
+    const entry = await getEntry(value as ReferenceDataEntry<CollectionKey>)
+    if (!entry) return value
+    return entry.data
   }
 
+  // array: recursively process each item
   if (Array.isArray(value)) {
-    value.forEach((item, idx) => {
-      results.push(...findReferenceRecursively(item, [...currentPath, idx]))
-    })
-  } else {
-    for (const key of Object.keys(value)) {
-      results.push(
-        // @ts-expect-error: Index signature for object
-        ...findReferenceRecursively(value[key], [...currentPath, key])
-      )
-    }
+    return Promise.all(value.map((item) => populateObject(item)))
   }
 
-  return results
+  // object: recursively process each property
+  const result: Record<string, unknown> = {}
+  const entries = Object.entries(value as Record<string, unknown>)
+  for (const [key, val] of entries) {
+    result[key] = await populateObject(val)
+  }
+  return result
 }
