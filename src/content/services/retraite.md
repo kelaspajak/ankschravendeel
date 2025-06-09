@@ -2,7 +2,7 @@
 title: "Meditatie retraite"
 description: "Opmerkzaam zijn voor langere tijd, intensiever en in alles wat we doen"
 image:
-  src: "/images/retraite.jpeg"
+  src: "/images/retraite.jpg"
   alt: "Retraite"
 blocks:
   - block: reviews-1
