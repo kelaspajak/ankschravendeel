@@ -44,19 +44,12 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
-  },
-
-  adapter: cloudflare({
-    runtime: {
-      mode: 'experimental-include-runtime-compat',
-      compatibilityDate: "2024-05-01" // You can adjust this date as needed
+    resolve: {
+      // Use react-dom/server.edge instead of react-dom/server.browser for React 19.
+      // Without this, MessageChannel from node:worker_threads needs to be polyfilled.
+      alias: import.meta.env.PROD ? {
+        "react-dom/server": "react-dom/server.edge",
+      } : undefined,
     }
-  }),
-
-  resolve: {
-  // Use react-dom/server.edge instead of react-dom/server.browser for React 19.
-  // Without this, MessageChannel from node:worker_threads needs to be polyfilled.
-  alias: import.meta.env.PROD ? {
-    "react-dom/server": "react-dom/server.edge",
-  } : undefined,
+  }
 })
