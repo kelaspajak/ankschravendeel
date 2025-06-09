@@ -1,10 +1,3 @@
-# Wrangler Configuration for Cloudflare Pages
-
-This file configures Wrangler, the CLI tool for deploying projects to Cloudflare Pages and Workers.
-
-## Basic Configuration
-
-```
 name = "ankschravendeel"
 type = "javascript"
 account_id = "5f2dfaedbb4462385b989a2eb9518c14"
@@ -15,13 +8,3 @@ zone_id = ""
 [site]
 bucket = "dist"
 entry-point = "."
-```
-
-## Instructions
-- Replace `5f2dfaedbb4462385b989a2eb9518c14` with your actual Cloudflare account ID.
-- The `bucket` should point to your Astro build output directory (usually `dist`).
-- For most Astro projects, you do not need to set `route` or `zone_id` unless you want to deploy to a custom domain.
-- Use `wrangler publish` to deploy your site after building with Astro.
-
----
-For more details, see the [Cloudflare Pages documentation](https://developers.cloudflare.com/pages/framework-guides/deploy/astro/).
