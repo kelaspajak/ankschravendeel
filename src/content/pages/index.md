@@ -2,58 +2,59 @@
 blocks:
   - block: hero-4
     content: >-
-      <h1>Krijg inzicht door meditatie en coaching met Ank
-      Schravendeel</h1><p>Meditatie: zijn met wat er is en dat toelaten.<br
-      />Coaching: je ervaring geeft inzicht en je leert je er toe verhouden.</p>
+      <h1>Dapatkan wawasan melalui meditasi dan coaching bersama Ank
+      Schravendeel</h1><p>Meditasi: hadir dengan apa adanya dan menerimanya.<br
+      />Coaching: pengalamanmu memberikan wawasan dan kamu belajar untuk
+      menghadapinya.</p>
     buttons:
-      - text: "Neem contact op"
+      - text: "Hubungi saya"
         href: "/contact/"
-      - text: "Bekijk aanbod"
+      - text: "Lihat penawaran"
         href: "/#aanbod"
     image:
       src: /images/home.jpeg
       alt: Hero
   - block: services-1
     content: |
-      <h2>Een overzicht van mijn aanbod</h2>
+      <h2>Gambaran umum penawaran saya</h2>
       <p>
-        Verschillende diensten op het gebied van meditatie en coaching
+        Berbagai layanan di bidang meditasi dan coaching
       </p>
   - block: media-1
     content: >
-      <h2>Over Ank Schravendeel</h2>
+      <h2>Tentang Less Summer</h2>
 
-      <p>Ik mediteer sinds 1988, vipassana meditatie. Zijn met wat er is,
-      toelaten, ontdekken. Dat is de basis om als meditatie begeleider en als
-      coach te werken.</p>
+      <p>Saya bermeditasi sejak 1988, meditasi vipassana. Hadir dengan apa adanya,
+      menerima, menemukan. Itu adalah dasar untuk bekerja sebagai pembimbing meditasi
+      dan sebagai coach.</p>
 
-      <p>Sinds 2003 begeleid ik meditatie. Ik volgde een opleiding aan de School
-      voor Coaching, en sinds 2005 heb ik een coachingspraktijk.</p>
+      <p>Sejak 2003 saya membimbing meditasi. Saya mengikuti pelatihan di School
+      voor Coaching, dan sejak 2005 saya memiliki praktik coaching.</p>
     buttons:
-      - text: Neem contact op
+      - text: Hubungi saya
         href: /contact/
-      - text: Lees verder
+      - text: Baca selengkapnya
         href: /over-mij/
     image:
       src: /images/over-mij.jpeg
-      alt: Ank Schravendeel
+      alt: Less Summer
   - block: articles-1
     content: |
-      <h2>De laatste blogs </h2>
+      <h2>Blog terbaru</h2>
   - block: reviews-1
     content: |
-      <h2>Wat anderen zeggen</h2>
+      <h2>Apa kata orang lain</h2>
   - block: cta-1
     content: |
-      <h2>Neem gerust contact met mij op</h2>
-      <p>Neem gerust contact met mij op, stel je vraag via onderstaand contactformulier, of geef me een seintje of telefoontje.</p>
+      <h2>Jangan ragu untuk menghubungi saya</h2>
+      <p>Jangan ragu untuk menghubungi saya, ajukan pertanyaan melalui formulir kontak di bawah ini, atau beri saya pesan atau telepon.</p>
     buttons:
-      - text: Neem contact op
+      - text: Hubungi saya
         href: /contact/
 seo:
-  title: Ank Schravendeel | Meditatie, Coaching & Spiritueler Begeleiding
+  title: Less Summer | Meditasi, Coaching & Bimbingan Spiritual
   description: >-
-    Welkom bij Ank Schravendeel. Ontdek professionele begeleiding in Vipassana
-    meditatie, coaching en spirituele ontwikkeling. Start uw reis naar
-    innerlijke rust en persoonlijke groei.
+    Selamat datang di Less Summer. Temukan pendampingan profesional dalam meditasi
+    Vipassana, coaching, dan pengembangan spiritual. Mulailah perjalanan Anda menuju
+    ketenangan batin dan pertumbuhan pribadi.
 ---
