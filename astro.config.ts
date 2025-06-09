@@ -46,5 +46,10 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    runtime: {
+      mode: 'experimental-include-runtime-compat',
+      compatibilityDate: "2024-05-01" // You can adjust this date as needed
+    }
+  }),
 })
