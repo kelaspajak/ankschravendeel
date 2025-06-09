@@ -6,8 +6,11 @@ import { defineConfig, fontProviders } from "astro/config"
 
 import integration from "./src/lib/integration"
 
+import cloudflare from "@astrojs/cloudflare";
+
 export default defineConfig({
   site: "https://ui.full.dev",
+
   experimental: {
     fonts: [
       {
@@ -28,14 +31,20 @@ export default defineConfig({
       },
     ],
   },
+
   prefetch: {
     prefetchAll: true,
   },
+
   devToolbar: {
     enabled: false,
   },
+
   integrations: [robotsTxt(), sitemap(), react(), integration()],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  adapter: cloudflare(),
 })
