@@ -12,7 +12,7 @@ blocks:
       - text: "Lihat penawaran"
         href: "/#aanbod"
     image:
-      src: /images/home.jpeg
+      src: /images/home.jpg
       alt: Hero
   - block: services-1
     content: |
